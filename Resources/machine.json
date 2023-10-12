@@ -1,0 +1,31 @@
+{
+    "Subtractive":{
+        "t_setup":30,
+        "c_setup":60,
+        "t_opt_setup":10,
+        "c_opt_setup":30,
+        "m_cost_per_min":3,
+        "t_polish":5,
+        "c_polish":10,
+        "t_inspection":20,
+        "c_inspection":20
+    },
+    "Additive":{
+        "t_setup":30,
+        "c_setup":60,
+        "m_cost_per_min":2,
+        "t_support":20,
+        "c_support":20,
+        "t_inspection":20,
+        "c_inspection":20
+    },
+    "EDM":{
+        "t_setup":30,
+        "c_setup":60,
+        "m_cost_per_min":4,
+        "t_polish":5,
+        "c_polish":10,
+        "t_inspection":20,
+        "c_inspection":20
+    }
+}

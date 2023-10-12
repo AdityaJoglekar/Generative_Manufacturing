@@ -1,0 +1,120 @@
+{
+    "Name": "Request-A",
+    "Part": "Bracket",
+    "Quantity": 100,
+    "EarliestStartDate": "2022-02-05T08:00:00",
+    "DueDate": "2022-02-11T23:59:59",
+    "SupplierNames": [
+        "Supplier-A",
+        "Supplier-B"
+    ],
+    "ProcessPlans": [
+        {
+            "Name": "3-Axis-Subtractive-1",
+            "Part": "Bracket",
+            "Link": "Studies/Engine_Mounting_Bracket\\config_1_7",
+            "Material": "ABSplastic",
+            "ManufacturingMethod": "3-Axis-Subtractive",
+            "BulkGrams": 424000.00000000006,
+            "NetGrams": 423998.9648437501,
+            "ScrapGrams": 1.0351562500000002,
+            "Width": 1000.0,
+            "Height": 400.0,
+            "Depth": 1000.0,
+            "Compliance": 4.8112688064575195,
+            "Volume": 399999023.4375001,
+            "Task_Sequence": [
+                {
+                    "Name": "3-Axis-machine-setup",
+                    "RequiredCapability": "3-Axis-Machining",
+                    "NominalDuration": 1800.0,
+                    "NominalCost": 60.0
+                },
+                {
+                    "Name": "3-Axis-fixture-1",
+                    "RequiredCapability": "3-Axis-Machining",
+                    "NominalDuration": 600.0,
+                    "NominalCost": 30.0
+                },
+                {
+                    "Name": "3-Axis-machining-1",
+                    "RequiredCapability": "3-Axis-Machining",
+                    "NominalDuration": 0.032519515603780746,
+                    "NominalCost": 0.0016259757103398442
+                },
+                {
+                    "Name": "3-Axis-fixture-2",
+                    "RequiredCapability": "3-Axis-Machining",
+                    "NominalDuration": 600.0,
+                    "NominalCost": 30.0
+                },
+                {
+                    "Name": "3-Axis-machining-2",
+                    "RequiredCapability": "3-Axis-Machining",
+                    "NominalDuration": 9.46623706817627,
+                    "NominalCost": 0.4733118414878845
+                },
+                {
+                    "Name": "3-Axis-fixture-3",
+                    "RequiredCapability": "3-Axis-Machining",
+                    "NominalDuration": 600.0,
+                    "NominalCost": 30.0
+                },
+                {
+                    "Name": "3-Axis-machining-3",
+                    "RequiredCapability": "3-Axis-Machining",
+                    "NominalDuration": 5.701366899302229e-05,
+                    "NominalCost": 2.85068358607532e-06
+                },
+                {
+                    "Name": "3-Axis-fixture-4",
+                    "RequiredCapability": "3-Axis-Machining",
+                    "NominalDuration": 600.0,
+                    "NominalCost": 30.0
+                },
+                {
+                    "Name": "3-Axis-machining-4",
+                    "RequiredCapability": "3-Axis-Machining",
+                    "NominalDuration": 5.073247932863012e-10,
+                    "NominalCost": 2.536624035820445e-11
+                },
+                {
+                    "Name": "3-Axis-fixture-5",
+                    "RequiredCapability": "3-Axis-Machining",
+                    "NominalDuration": 600.0,
+                    "NominalCost": 30.0
+                },
+                {
+                    "Name": "3-Axis-machining-5",
+                    "RequiredCapability": "3-Axis-Machining",
+                    "NominalDuration": 5.3109529069754555e-15,
+                    "NominalCost": 2.6554763476086094e-16
+                },
+                {
+                    "Name": "3-Axis-fixture-6",
+                    "RequiredCapability": "3-Axis-Machining",
+                    "NominalDuration": 600.0,
+                    "NominalCost": 30.0
+                },
+                {
+                    "Name": "3-Axis-machining-6",
+                    "RequiredCapability": "3-Axis-Machining",
+                    "NominalDuration": 6.090458471924344e-20,
+                    "NominalCost": 3.0452292763518505e-21
+                },
+                {
+                    "Name": "Polishing",
+                    "RequiredCapability": "Buffing",
+                    "NominalDuration": 300.0,
+                    "NominalCost": 10.0
+                },
+                {
+                    "Name": "Inspection",
+                    "RequiredCapability": "Buffing",
+                    "NominalDuration": 1200.0,
+                    "NominalCost": 20.0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "Name": "Request-A",
+    "Part": "Bracket",
+    "Quantity": 100,
+    "EarliestStartDate": "2022-02-05T08:00:00",
+    "DueDate": "2022-02-11T23:59:59",
+    "SupplierNames": [
+        "Supplier-A",
+        "Supplier-B"
+    ],
+    "ProcessPlans": [
+        {
+            "Name": "2-Axis-Subtractive-1",
+            "Part": "Bracket",
+            "Link": "Studies/CB\\config_3_3",
+            "Material": "Al6061",
+            "ManufacturingMethod": "2-Axis-Subtractive",
+            "BulkGrams": 1105.92,
+            "NetGrams": 245.361403125,
+            "ScrapGrams": 860.558596875,
+            "Width": 160.0,
+            "Height": 80.0,
+            "Depth": 32.0,
+            "Compliance": 1.149062768490694e-06,
+            "Volume": 90874.59375000001,
+            "Task_Sequence": [
+                {
+                    "Name": "EDM-machine-setup",
+                    "RequiredCapability": "EDM-Machining",
+                    "NominalDuration": 30.0,
+                    "NominalCost": 60.0
+                },
+                {
+                    "Name": "2Axis-machining-1",
+                    "RequiredCapability": "EDM-Machining",
+                    "NominalDuration": 59.760437159113245,
+                    "NominalCost": 239.04174863645298
+                },
+                {
+                    "Name": "Polishing",
+                    "RequiredCapability": "Buffing",
+                    "NominalDuration": 5.0,
+                    "NominalCost": 10.0
+                },
+                {
+                    "Name": "Inspection",
+                    "RequiredCapability": "Buffing",
+                    "NominalDuration": 20.0,
+                    "NominalCost": 20.0
+                }
+            ]
+        }
+    ]
+}

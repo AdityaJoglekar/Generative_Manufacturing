@@ -1,0 +1,12 @@
+{
+    "id": 1,
+    "suppliers": [
+        "Supplier-A"
+    ],
+    "order": "Request-A",
+    "processPlan": "2-Axis-Subtractive-1",
+    "leadTime": 226501,
+    "earliestStartTime": "2022-02-05T08:00:00+0000",
+    "earliestFinishTime": "2022-02-07T22:55:01+0000",
+    "cost": 14971
+}

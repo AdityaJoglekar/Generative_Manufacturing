@@ -1,0 +1,54 @@
+{
+    "Name": "Request-A",
+    "Part": "Bracket",
+    "Quantity": 100,
+    "EarliestStartDate": "2022-02-05T08:00:00",
+    "DueDate": "2022-02-11T23:59:59",
+    "SupplierNames": [
+        "Supplier-A",
+        "Supplier-B"
+    ],
+    "ProcessPlans": [
+        {
+            "Name": "SLM-Additive-1",
+            "Part": "Bracket",
+            "Link": "Studies/Engine_Mounting_Bracket\\config_1_1",
+            "Material": "Al6061powder",
+            "ManufacturingMethod": "SLM-Additive",
+            "BulkGrams": 44023.88671875,
+            "NetGrams": 43893.46875,
+            "ScrapGrams": 130.41981506347656,
+            "Width": 1000.0,
+            "Height": 400.0,
+            "Depth": 1000.0,
+            "Compliance": 3.1922173500061035,
+            "Volume": 16256839.752197267,
+            "Task_Sequence": [
+                {
+                    "Name": "Additive-machine-setup",
+                    "RequiredCapability": "SLM-Metal-Printing",
+                    "NominalDuration": 1800.0,
+                    "NominalCost": 60.0
+                },
+                {
+                    "Name": "SLM-printing",
+                    "RequiredCapability": "SLM-Metal-Printing",
+                    "NominalDuration": 2641433.25,
+                    "NominalCost": 88047.7734375
+                },
+                {
+                    "Name": "Support-removal",
+                    "RequiredCapability": "Buffing",
+                    "NominalDuration": 1200.0,
+                    "NominalCost": 20.0
+                },
+                {
+                    "Name": "Inspection",
+                    "RequiredCapability": "Buffing",
+                    "NominalDuration": 1200.0,
+                    "NominalCost": 20.0
+                }
+            ]
+        }
+    ]
+}

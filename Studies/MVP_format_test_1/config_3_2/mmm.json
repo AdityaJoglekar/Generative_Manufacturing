@@ -1,0 +1,9 @@
+{
+    "ManufacturingMethod": "Additive",
+    "Orientation": ["y+"],
+    "Material": "Al6061",
+    "W_mass": 0.25,
+    "W_compliance": 0.25,
+    "W_cost": 0.25,
+    "W_time": 0.25
+}

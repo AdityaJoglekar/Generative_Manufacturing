@@ -1,0 +1,57 @@
+{
+    "Al6061":{
+        "E0":68e9,
+        "Emin":1e-6,
+        "nu": 0.33,
+        "density": 2700,
+        "mat_cost": 3,
+        "powder_cost": 185,
+        "m_removal_rate": 0.000006407,
+        "am_print_rate": 0.0010,
+        "q_cut": 0.0004301066
+    },
+    "Ti6Al4V":{
+        "E0":113.763e9,
+        "Emin":1e-6,
+        "nu": 0.35,
+        "density": 4430,
+        "mat_cost": 100,
+        "powder_cost": 429,
+        "m_removal_rate": 0.000000653,
+        "am_print_rate": 0.001,
+        "q_cut": 0.0004301066
+    },
+    "ABSplastic":{
+        "E0":2.24e9,
+        "Emin":1e-6,
+        "nu": 0.38,
+        "density": 1060,
+        "mat_cost": 2,
+        "powder_cost": 2,
+        "m_removal_rate": 0.000006103,
+        "am_print_rate": 0.001,
+        "q_cut": 0.0004301066
+    },
+    "SS":{
+        "E0":193e9,
+        "Emin":1e-6,
+        "nu": 0.30,
+        "density": 8000,
+        "mat_cost": 1.408,
+        "powder_cost": 135,
+        "m_removal_rate": 0.000000459,
+        "am_print_rate": 0.001,
+        "q_cut": 0.0004301066
+    },
+    "Nylon6":{
+        "E0":2.758e9,
+        "Emin":1e-6,
+        "nu": 0.35,
+        "density": 1120,
+        "mat_cost": 2,
+        "powder_cost": 10,
+        "m_removal_rate": 0.000006103,
+        "am_print_rate": 0.001,
+        "q_cut": 0.0004301066
+    }
+}

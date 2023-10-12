@@ -1,0 +1,861 @@
+[3904327842.025634 INFO] Legal Time Range:  [Jan  1 1970 00:00:00] -- [Sep 25 73069258125 03:52:31]
+[3904327842.028491 INFO] Loading problem from /Users/hongr/Documents/aditya/UM_weights_new_test_all_contr/executable-win/executable-win/data/ray-generate-dataset/json/
+[3904327867.320686 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 100)
+                                           (:*EARLIEST-START-DATE
+                                            . "2022-02-05T08:00:00")
+                                           (:*DUE-DATE . "2023-02-11T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "SLM-Additive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/MVP_constraints_based_test_1\\config_1_1")
+                                             (:*MATERIAL . "Al6061powder")
+                                             (:*MANUFACTURING-METHOD
+                                              . "SLM-Additive")
+                                             (:*BULK-GRAMS . 335.78787)
+                                             (:*NET-GRAMS . 222.8647)
+                                             (:*SCRAP-GRAMS . 112.92315)
+                                             (:*WIDTH . 160.0)
+                                             (:*HEIGHT . 80.0) (:*DEPTH . 32.0)
+                                             (:*COMPLIANCE . 1.3298118e-6)
+                                             (:*VOLUME . 82542.484)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "Additive-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "SLM-printing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 20147.27)
+                                               (:*NOMINAL-COST . 671.5757))
+                                              ((:*NAME . "Support-removal")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3904328086.509061 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 100)
+                                           (:*EARLIEST-START-DATE
+                                            . "2022-02-05T08:00:00")
+                                           (:*DUE-DATE . "2023-02-11T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "SLM-Additive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/MVP_constraints_based_test_1\\config_1_1")
+                                             (:*MATERIAL . "Al6061powder")
+                                             (:*MANUFACTURING-METHOD
+                                              . "SLM-Additive")
+                                             (:*BULK-GRAMS . 182.74432)
+                                             (:*NET-GRAMS . 176.6789)
+                                             (:*SCRAP-GRAMS . 6.0654325)
+                                             (:*WIDTH . 160.0)
+                                             (:*HEIGHT . 80.0) (:*DEPTH . 32.0)
+                                             (:*COMPLIANCE . 1.2844923e-7)
+                                             (:*VOLUME . 65436.63)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "Additive-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "SLM-printing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 10964.658)
+                                               (:*NOMINAL-COST . 365.48862))
+                                              ((:*NAME . "Support-removal")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3904328200.412961 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 100)
+                                           (:*EARLIEST-START-DATE
+                                            . "2022-02-05T08:00:00")
+                                           (:*DUE-DATE . "2023-02-11T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "3-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/MVP_constraints_based_test_1\\config_1_2")
+                                             (:*MATERIAL . "Al6061")
+                                             (:*MANUFACTURING-METHOD
+                                              . "3-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1105.92)
+                                             (:*NET-GRAMS . 500.20428)
+                                             (:*SCRAP-GRAMS . 605.7157)
+                                             (:*WIDTH . 160.0)
+                                             (:*HEIGHT . 80.0) (:*DEPTH . 32.0)
+                                             (:*COMPLIANCE . 4.437275e-8)
+                                             (:*VOLUME . 185260.84)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "3-Axis-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "3-Axis-fixture-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 360.08978)
+                                               (:*NOMINAL-COST . 18.00449))
+                                              ((:*NAME . "3-Axis-fixture-2")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-2")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 550.55835)
+                                               (:*NOMINAL-COST . 27.527916))
+                                              ((:*NAME . "3-Axis-fixture-3")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-3")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 946.76514)
+                                               (:*NOMINAL-COST . 47.338257))
+                                              ((:*NAME . "3-Axis-fixture-4")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-4")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 65.847336)
+                                               (:*NOMINAL-COST . 3.292367))
+                                              ((:*NAME . "3-Axis-fixture-5")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-5")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 97.56629)
+                                               (:*NOMINAL-COST . 4.8783145))
+                                              ((:*NAME . "3-Axis-fixture-6")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-6")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 77.28378)
+                                               (:*NOMINAL-COST . 3.8641891))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3904328420.205848 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 100)
+                                           (:*EARLIEST-START-DATE
+                                            . "2022-02-05T08:00:00")
+                                           (:*DUE-DATE . "2023-02-11T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "SLM-Additive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/MVP_constraints_based_test_1\\config_1_4")
+                                             (:*MATERIAL . "Ti6Al4Vpowder")
+                                             (:*MANUFACTURING-METHOD
+                                              . "SLM-Additive")
+                                             (:*BULK-GRAMS . 163.81209)
+                                             (:*NET-GRAMS . 159.24916)
+                                             (:*SCRAP-GRAMS . 4.56293)
+                                             (:*WIDTH . 160.0)
+                                             (:*HEIGHT . 80.0) (:*DEPTH . 32.0)
+                                             (:*COMPLIANCE . 1.82465e-7)
+                                             (:*VOLUME . 35947.89)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "Additive-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "SLM-printing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 9828.725)
+                                               (:*NOMINAL-COST . 327.62415))
+                                              ((:*NAME . "Support-removal")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3904328455.857879 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 100)
+                                           (:*EARLIEST-START-DATE
+                                            . "2022-02-05T08:00:00")
+                                           (:*DUE-DATE . "2023-02-11T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "3-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/MVP_constraints_based_test_1\\config_1_7")
+                                             (:*MATERIAL . "ABSplastic")
+                                             (:*MANUFACTURING-METHOD
+                                              . "3-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 434.176)
+                                             (:*NET-GRAMS . 434.17172)
+                                             (:*SCRAP-GRAMS . 0.004273125)
+                                             (:*WIDTH . 160.0)
+                                             (:*HEIGHT . 80.0) (:*DEPTH . 32.0)
+                                             (:*COMPLIANCE . 9.174869e-7)
+                                             (:*VOLUME . 409595.97)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "3-Axis-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "3-Axis-fixture-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION
+                                                . 9.2841225e-4)
+                                               (:*NOMINAL-COST . 4.642061e-5))
+                                              ((:*NAME . "3-Axis-fixture-2")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-2")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION
+                                                . 0.039394602)
+                                               (:*NOMINAL-COST . 0.00196973))
+                                              ((:*NAME . "3-Axis-fixture-3")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-3")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION
+                                                . 3.878494e-7)
+                                               (:*NOMINAL-COST . 1.939247e-8))
+                                              ((:*NAME . "3-Axis-fixture-4")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-4")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION
+                                                . 3.838533e-12)
+                                               (:*NOMINAL-COST
+                                                . 1.9192663e-13))
+                                              ((:*NAME . "3-Axis-fixture-5")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-5")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION
+                                                . 3.8174855e-17)
+                                               (:*NOMINAL-COST
+                                                . 1.9087428e-18))
+                                              ((:*NAME . "3-Axis-fixture-6")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-6")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION
+                                                . 3.813261e-22)
+                                               (:*NOMINAL-COST
+                                                . 1.9066304e-23))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3904328567.677404 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 100)
+                                           (:*EARLIEST-START-DATE
+                                            . "2022-02-05T08:00:00")
+                                           (:*DUE-DATE . "2023-02-11T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "SLM-Additive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/MVP_constraints_based_test_1\\config_1_8")
+                                             (:*MATERIAL . "ABSplastic_powder")
+                                             (:*MANUFACTURING-METHOD
+                                              . "SLM-Additive")
+                                             (:*BULK-GRAMS . 199.8373)
+                                             (:*NET-GRAMS . 199.71655)
+                                             (:*SCRAP-GRAMS . 0.12074032)
+                                             (:*WIDTH . 160.0)
+                                             (:*HEIGHT . 80.0) (:*DEPTH . 32.0)
+                                             (:*COMPLIANCE . 1.329976e-6)
+                                             (:*VOLUME . 188411.84)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "Additive-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "SLM-printing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 11990.236)
+                                               (:*NOMINAL-COST . 399.67456))
+                                              ((:*NAME . "Support-removal")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3904328722.860527 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 100)
+                                           (:*EARLIEST-START-DATE
+                                            . "2022-02-05T08:00:00")
+                                           (:*DUE-DATE . "2023-02-11T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "SLM-Additive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/MVP_constraints_based_test_1\\config_2_1")
+                                             (:*MATERIAL . "Al6061powder")
+                                             (:*MANUFACTURING-METHOD
+                                              . "SLM-Additive")
+                                             (:*BULK-GRAMS . 183.34625)
+                                             (:*NET-GRAMS . 179.44504)
+                                             (:*SCRAP-GRAMS . 3.9012115)
+                                             (:*WIDTH . 160.0)
+                                             (:*HEIGHT . 80.0) (:*DEPTH . 32.0)
+                                             (:*COMPLIANCE . 1.2968142e-7)
+                                             (:*VOLUME . 66461.125)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "Additive-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "SLM-printing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 11000.775)
+                                               (:*NOMINAL-COST . 366.6925))
+                                              ((:*NAME . "Support-removal")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3904328863.719226 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 100)
+                                           (:*EARLIEST-START-DATE
+                                            . "2022-02-05T08:00:00")
+                                           (:*DUE-DATE . "2023-02-11T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "3-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/MVP_constraints_based_test_1\\config_2_2")
+                                             (:*MATERIAL . "Al6061")
+                                             (:*MANUFACTURING-METHOD
+                                              . "3-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1105.92)
+                                             (:*NET-GRAMS . 199.46744)
+                                             (:*SCRAP-GRAMS . 906.4526)
+                                             (:*WIDTH . 160.0)
+                                             (:*HEIGHT . 80.0) (:*DEPTH . 32.0)
+                                             (:*COMPLIANCE . 1.1845512e-7)
+                                             (:*VOLUME . 73876.83)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "3-Axis-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "3-Axis-fixture-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 1706.6261)
+                                               (:*NOMINAL-COST . 85.3313))
+                                              ((:*NAME . "3-Axis-fixture-2")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-2")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 562.18787)
+                                               (:*NOMINAL-COST . 28.109394))
+                                              ((:*NAME . "3-Axis-fixture-3")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-3")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 493.46912)
+                                               (:*NOMINAL-COST . 24.673456))
+                                              ((:*NAME . "3-Axis-fixture-4")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-4")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 20.537437)
+                                               (:*NOMINAL-COST . 1.0268719))
+                                              ((:*NAME . "3-Axis-fixture-5")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-5")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 340.89627)
+                                               (:*NOMINAL-COST . 17.044813))
+                                              ((:*NAME . "3-Axis-fixture-6")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-6")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 18.687008)
+                                               (:*NOMINAL-COST . 0.9343504))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3904329083.711857 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 100)
+                                           (:*EARLIEST-START-DATE
+                                            . "2022-02-05T08:00:00")
+                                           (:*DUE-DATE . "2023-02-11T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "SLM-Additive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/MVP_constraints_based_test_1\\config_2_5")
+                                             (:*MATERIAL . "Ti6Al4Vpowder")
+                                             (:*MANUFACTURING-METHOD
+                                              . "SLM-Additive")
+                                             (:*BULK-GRAMS . 166.28403)
+                                             (:*NET-GRAMS . 163.18877)
+                                             (:*SCRAP-GRAMS . 3.0952542)
+                                             (:*WIDTH . 160.0)
+                                             (:*HEIGHT . 80.0) (:*DEPTH . 32.0)
+                                             (:*COMPLIANCE . 1.8092742e-7)
+                                             (:*VOLUME . 36837.195)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "Additive-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "SLM-printing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 9977.041)
+                                               (:*NOMINAL-COST . 332.56802))
+                                              ((:*NAME . "Support-removal")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3904329196.840050 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 100)
+                                           (:*EARLIEST-START-DATE
+                                            . "2022-02-05T08:00:00")
+                                           (:*DUE-DATE . "2023-02-11T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "3-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/MVP_constraints_based_test_1\\config_2_7")
+                                             (:*MATERIAL . "ABSplastic")
+                                             (:*MANUFACTURING-METHOD
+                                              . "3-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 434.176)
+                                             (:*NET-GRAMS . 200.1149)
+                                             (:*SCRAP-GRAMS . 234.0611)
+                                             (:*WIDTH . 160.0)
+                                             (:*HEIGHT . 80.0) (:*DEPTH . 32.0)
+                                             (:*COMPLIANCE . 1.3164088e-6)
+                                             (:*VOLUME . 188787.64)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "3-Axis-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "3-Axis-fixture-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 354.2056)
+                                               (:*NOMINAL-COST . 17.71028))
+                                              ((:*NAME . "3-Axis-fixture-2")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-2")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 574.27905)
+                                               (:*NOMINAL-COST . 28.713953))
+                                              ((:*NAME . "3-Axis-fixture-3")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-3")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 971.3183)
+                                               (:*NOMINAL-COST . 48.565918))
+                                              ((:*NAME . "3-Axis-fixture-4")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-4")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 78.15337)
+                                               (:*NOMINAL-COST . 3.9076688))
+                                              ((:*NAME . "3-Axis-fixture-5")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-5")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 99.77382)
+                                               (:*NOMINAL-COST . 4.988691))
+                                              ((:*NAME . "3-Axis-fixture-6")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 600.0)
+                                               (:*NOMINAL-COST . 30.0))
+                                              ((:*NAME . "3-Axis-machining-6")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "3-Axis-Machining")
+                                               (:*NOMINAL-DURATION . 90.391975)
+                                               (:*NOMINAL-COST . 4.519599))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3904329306.031991 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 100)
+                                           (:*EARLIEST-START-DATE
+                                            . "2022-02-05T08:00:00")
+                                           (:*DUE-DATE . "2023-02-11T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "SLM-Additive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/MVP_constraints_based_test_1\\config_2_8")
+                                             (:*MATERIAL . "ABSplastic_powder")
+                                             (:*MANUFACTURING-METHOD
+                                              . "SLM-Additive")
+                                             (:*BULK-GRAMS . 199.83615)
+                                             (:*NET-GRAMS . 199.68956)
+                                             (:*SCRAP-GRAMS . 0.14658183)
+                                             (:*WIDTH . 160.0)
+                                             (:*HEIGHT . 80.0) (:*DEPTH . 32.0)
+                                             (:*COMPLIANCE . 1.3315264e-6)
+                                             (:*VOLUME . 188386.39)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "Additive-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "SLM-printing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 11990.168)
+                                               (:*NOMINAL-COST . 399.67227))
+                                              ((:*NAME . "Support-removal")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3904329530.169444 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 100)
+                                           (:*EARLIEST-START-DATE
+                                            . "2022-02-05T08:00:00")
+                                           (:*DUE-DATE . "2023-02-11T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "SLM-Additive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/MVP_constraints_based_test_1\\config_3_1")
+                                             (:*MATERIAL . "Al6061powder")
+                                             (:*MANUFACTURING-METHOD
+                                              . "SLM-Additive")
+                                             (:*BULK-GRAMS . 90.84968)
+                                             (:*NET-GRAMS . 88.955864)
+                                             (:*SCRAP-GRAMS . 1.8938117)
+                                             (:*WIDTH . 160.0)
+                                             (:*HEIGHT . 80.0) (:*DEPTH . 32.0)
+                                             (:*COMPLIANCE . 3.4241785e-7)
+                                             (:*VOLUME . 32946.617)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "Additive-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "SLM-printing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 5450.9805)
+                                               (:*NOMINAL-COST . 181.69934))
+                                              ((:*NAME . "Support-removal")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3904329832.921922 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 100)
+                                           (:*EARLIEST-START-DATE
+                                            . "2022-02-05T08:00:00")
+                                           (:*DUE-DATE . "2023-02-11T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "SLM-Additive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/MVP_constraints_based_test_1\\config_3_5")
+                                             (:*MATERIAL . "Ti6Al4Vpowder")
+                                             (:*MANUFACTURING-METHOD
+                                              . "SLM-Additive")
+                                             (:*BULK-GRAMS . 81.81033)
+                                             (:*NET-GRAMS . 81.595604)
+                                             (:*SCRAP-GRAMS . 0.21472636)
+                                             (:*WIDTH . 160.0)
+                                             (:*HEIGHT . 80.0) (:*DEPTH . 32.0)
+                                             (:*COMPLIANCE . 5.042372e-7)
+                                             (:*VOLUME . 18418.873)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "Additive-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "SLM-printing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 4908.6196)
+                                               (:*NOMINAL-COST . 163.62065))
+                                              ((:*NAME . "Support-removal")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3904329964.953161 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 100)
+                                           (:*EARLIEST-START-DATE
+                                            . "2022-02-05T08:00:00")
+                                           (:*DUE-DATE . "2023-02-11T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "SLM-Additive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/MVP_constraints_based_test_1\\config_3_8")
+                                             (:*MATERIAL . "ABSplastic_powder")
+                                             (:*MANUFACTURING-METHOD
+                                              . "SLM-Additive")
+                                             (:*BULK-GRAMS . 99.90401)
+                                             (:*NET-GRAMS . 98.654564)
+                                             (:*SCRAP-GRAMS . 1.2494482)
+                                             (:*WIDTH . 160.0)
+                                             (:*HEIGHT . 80.0) (:*DEPTH . 32.0)
+                                             (:*COMPLIANCE . 2.7292492e-6)
+                                             (:*VOLUME . 93070.34)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "Additive-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "SLM-printing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 5994.24)
+                                               (:*NOMINAL-COST . 199.80801))
+                                              ((:*NAME . "Support-removal")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))

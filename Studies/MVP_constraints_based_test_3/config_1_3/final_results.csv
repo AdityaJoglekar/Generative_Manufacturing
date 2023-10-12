@@ -1,0 +1,2 @@
+Mass Constraint (g),Cost Constraint ($),Time Constraint (min),Manufacturing Method,Mass (g),Compliance (Nm),Maximum Displacement (mm),Nominal Time (min),Nominal Cost ($),Material,Supplier,Lead Time (min),Cost ($)
+500.0,500000,500000,EDM z,498.7027943134308,0.05129525065422058,0.39537387783639133,122.49591257692954,363.3014103077182,Al6061,Supplier-A,12249.6,36000

@@ -1,0 +1,9 @@
+{
+    "ManufacturingMethod": "EDM",
+    "Orientation": [
+        "y"
+    ],
+    "Material": "ABSplastic",
+    "Valid": true,
+    "Reason": "Feasible Configuration"
+}

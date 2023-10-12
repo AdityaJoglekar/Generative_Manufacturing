@@ -1,0 +1,3 @@
+Manufacturing Method,Material,Probe,mass,compliance,time,cost
+"Subtractive ['x+', 'x-', 'y+', 'y-', 'z+', 'z-']",Ti6Al4V,high,1772000.0000000005,0.09785375744104385,115.0,177470.0
+"Subtractive ['x+', 'x-', 'y+', 'y-', 'z+', 'z-']",Ti6Al4V,low,17720.000000000007,978.2545776367188,606546.9375,1996765.75

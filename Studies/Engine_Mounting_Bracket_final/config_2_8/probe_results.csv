@@ -1,0 +1,5 @@
+Manufacturing Method,Material,Probe,Mass (g),Compliance (Nm),Nominal Time (min),Nominal Cost ($),Supplier,Lead Time (min),Cost ($)
+Additive ['y+'],ABSplastic,0.1,42400.00404357911,8612.072265625,43742.0,87531.34375,Supplier-B,43742.02,87445
+Additive ['y+'],ABSplastic,0.05,21200.002021789554,34448.31640625,21906.0,43815.671875,Supplier-B,21906.02,43773
+Additive ['y+'],ABSplastic,0.01,4240.000000000001,861206.75,4437.2001953125,8843.134765625,Supplier-B,4437.2,8835
+Additive ['y+'],ABSplastic,0.005,2120.0000000000005,3444825.5,2253.60009765625,4471.5673828125,Supplier-B,2253.6,4468

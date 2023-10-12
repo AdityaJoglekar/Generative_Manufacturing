@@ -1,0 +1,2 @@
+Mass Constraint (g),Cost Constraint ($),Time Constraint (min),Manufacturing Method,Mass (g),Compliance (Nm),Maximum Displacement (mm),Nominal Time (min),Nominal Cost ($),Supplier,Cost ($),Lead Time (min),Material
+200.0,30000,30000,Subtractive x+,infeasible,infeasible,infeasible,infeasible,infeasible,infeasible,infeasible,infeasible,ABSplastic

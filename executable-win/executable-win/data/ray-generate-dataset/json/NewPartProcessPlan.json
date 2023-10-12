@@ -1,0 +1,43 @@
+[
+    {
+        "Name": "3-Axis-Subtractive-7",
+        "Part": "Bracket",
+        "Link": "3axis_z-_0.3",
+        "Material": "Al6061",
+        "ManufacturingMethod": "3-Axis-Subtractive",
+        "BulkGrams": 1105.92,
+        "NetGrams": 331.75,
+        "ScrapGrams": 774.17,
+        "Width": 160.0,
+        "Height": 80.0,
+        "Depth": 32.0,
+        "MaxDisplacement": 0.0835,
+        "Volume": 122871.2,
+        "Task_Sequence": [
+            {
+                "Name": "3Axis-fixture-1",
+                "RequiredCapability": "3-Axis-Machining",
+                "NominalDuration": 10.0,
+                "NominalCost": 30.0
+            },
+            {
+                "Name": "3Axis-machining-1",
+                "RequiredCapability": "3-Axis-Machining",
+                "NominalDuration": 44.3,
+                "NominalCost": 132.89
+            },
+            {
+                "Name": "Bracket-polishing",
+                "RequiredCapability": "Buffing",
+                "NominalDuration": 5.0,
+                "NominalCost": 10.0
+            },
+            {
+                "Name": "Bracket-inspection",
+                "RequiredCapability": "Buffing",
+                "NominalDuration": 20.0,
+                "NominalCost": 20.0
+            }
+        ]
+    }
+]

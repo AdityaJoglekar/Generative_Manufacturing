@@ -1,0 +1,3 @@
+Manufacturing Method,Material,Probe,Mass (g),Compliance (Nm),Nominal Time (min),Nominal Cost ($),Supplier,Lead Time (min),Cost ($)
+Additive ['y+'],Ti6Al4V,0.01,17720.000000000007,17434.6953125,18321.6015625,44433.140625,Supplier-B,18321.6,36604
+Additive ['y+'],Ti6Al4V,0.005,8860.000000000004,69738.765625,9195.80078125,22266.5703125,Supplier-B,9195.8,18352

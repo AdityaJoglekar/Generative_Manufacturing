@@ -1,0 +1,3 @@
+Manufacturing Method,Material,Probe,mass,compliance,time,cost
+"Subtractive ['x+', 'x-', 'y+', 'y-', 'z+', 'z-']",ABSplastic,high,424000.00000000006,4.812916278839111,115.0,1118.0
+"Subtractive ['x+', 'x-', 'y+', 'y-', 'z+', 'z-']",ABSplastic,low,4240.000000000001,48151.16796875,65001.125,195776.375

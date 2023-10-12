@@ -1,0 +1,11 @@
+
+    {
+        "ManufacturingMethod": "Subtractive",
+        "Orientation": ["z+", "z-"],
+        "Material": "Ti6Al4V",
+        "W_mass": 0.7,
+        "W_compliance": 0.6,
+        "W_cost": 0.5,
+        "W_time": 0.4
+    }
+

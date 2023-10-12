@@ -1,0 +1,44 @@
+[
+  {
+    "Supplier": "Supplier-A",
+    "Name": "Al6061",
+    "AmountOnHand[grams]": 10,
+    "ReorderLeadTime[days]": 0,
+    "ReorderQuantity[grams]": 0
+  },
+  {
+    "Supplier": "Supplier-A",
+    "Name": "Ti6Al4V",
+    "AmountOnHand[grams]": 15,
+    "ReorderLeadTime[days]": 0,
+    "ReorderQuantity[grams]": 0
+  },
+  {
+    "Supplier": "Supplier-A",
+    "Name": "ABSplastic",
+    "AmountOnHand[grams]": 400,
+    "ReorderLeadTime[days]": 0,
+    "ReorderQuantity[grams]": 30
+  },
+  {
+    "Supplier": "Supplier-B",
+    "Name": "Al6061powder",
+    "AmountOnHand[grams]": 2,
+    "ReorderLeadTime[days]": 0,
+    "ReorderQuantity[grams]": 0
+  },
+  {
+    "Supplier": "Supplier-B",
+    "Name": "Ti6Al4Vpowder",
+    "AmountOnHand[grams]": 4,
+    "ReorderLeadTime[days]": 0,
+    "ReorderQuantity[grams]": 0
+  },
+  {
+    "Supplier": "Supplier-B",
+    "Name": "ABSplastic_powder",
+    "AmountOnHand[grams]": 500,
+    "ReorderLeadTime[days]": 0,
+    "ReorderQuantity[grams]": 30
+  }
+]

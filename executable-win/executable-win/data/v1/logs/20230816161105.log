@@ -1,0 +1,88 @@
+[3901205465.023867 INFO] Legal Time Range:  [Jan  1 1970 00:00:00] -- [Sep 25 73069258125 03:52:31]
+[3901205465.026443 INFO] Loading problem from /Users/hongr/Documents/aditya/GM_weighted_approach/Test_scheduler_new/executable-win/executable-win/data/ray-generate-dataset/json/
+[3901205530.325395 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 100)
+                                           (:*EARLIEST-START-DATE
+                                            . "2022-02-05T08:00:00")
+                                           (:*DUE-DATE . "2022-02-11T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK . "config_1_11")
+                                             (:*MATERIAL . "Al6061")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1105.92)
+                                             (:*NET-GRAMS . 668.4483)
+                                             (:*SCRAP-GRAMS . 437.47168)
+                                             (:*WIDTH . 160.0)
+                                             (:*HEIGHT . 80.0) (:*DEPTH . 32.0)
+                                             (:*COMPLIANCE . 5.4673073e-8)
+                                             (:*VOLUME . 247573.45)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 30.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 140.87508)
+                                               (:*NOMINAL-COST . 563.5003))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 5.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 20.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3901206846.452274 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 100)
+                                           (:*EARLIEST-START-DATE
+                                            . "2022-02-05T08:00:00")
+                                           (:*DUE-DATE . "2022-02-11T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK . "config_1_11")
+                                             (:*MATERIAL . "Al6061")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1105.92)
+                                             (:*NET-GRAMS . 640.0395)
+                                             (:*SCRAP-GRAMS . 465.8805)
+                                             (:*WIDTH . 160.0)
+                                             (:*HEIGHT . 80.0) (:*DEPTH . 32.0)
+                                             (:*COMPLIANCE . 5.957898e-8)
+                                             (:*VOLUME . 237051.67)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 30.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQURIED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 140.68718)
+                                               (:*NOMINAL-COST . 562.7487))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 5.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 20.0)
+                                               (:*NOMINAL-COST . 20.0))))))

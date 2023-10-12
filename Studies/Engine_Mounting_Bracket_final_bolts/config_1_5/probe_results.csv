@@ -1,0 +1,2 @@
+Manufacturing Method,Material,Probe,Mass (g),Compliance (Nm),Nominal Time (min),Nominal Cost ($),Supplier,Lead Time (min),Cost ($)
+"Subtractive ['x+', 'x-', 'y+', 'y-', 'z+', 'z-']",Ti6Al4V,1.0,1772000.0000000005,1.743580937385559,115.0,177470.0,Supplier-A,127.2,383

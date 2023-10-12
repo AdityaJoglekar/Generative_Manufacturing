@@ -1,0 +1,9 @@
+{
+    "ManufacturingMethod": "EDM",
+    "Orientation": ["y"],
+    "Material": "Ti6Al4V",
+    "W_mass": 0.0,
+    "W_compliance": 0.33,
+    "W_cost": 0.33,
+    "W_time": 0.33
+}

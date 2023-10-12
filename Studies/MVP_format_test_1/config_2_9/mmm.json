@@ -1,0 +1,9 @@
+{
+    "ManufacturingMethod": "EDM",
+    "Orientation": ["y"],
+    "Material": "Al6061",
+    "W_mass": 0.5,
+    "W_compliance": 0.5,
+    "W_cost": 0.5,
+    "W_time": 0.5
+}

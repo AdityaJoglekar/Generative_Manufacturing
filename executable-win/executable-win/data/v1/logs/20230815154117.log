@@ -1,0 +1,46 @@
+[3901117277.023326 INFO] Legal Time Range:  [Jan  1 1970 00:00:00] -- [Sep 25 73069258125 03:52:31]
+[3901117277.026443 INFO] Loading problem from /Users/hongr/Documents/aditya/GM_weighted_approach/Test_scheduler_new/executable-win/executable-win/data/ray-generate-dataset/json/
+[3901117300.150613 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 100)
+                                           (:*EARLIEST-START-DATE
+                                            . "2022-02-05T08:00:00")
+                                           (:*DUE-DATE . "2022-02-11T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "SLM-Additive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK . "config_1_9")
+                                             (:*MATERIAL . "Al6061")
+                                             (:*MANUFACTURING-METHOD
+                                              . "SLM-Additive")
+                                             (:*BULK-GRAMS . 90.9773)
+                                             (:*NET-GRAMS . 81.70337)
+                                             (:*SCRAP-GRAMS . 9.273932)
+                                             (:*WIDTH . 160.0)
+                                             (:*HEIGHT . 80.0) (:*DEPTH . 32.0)
+                                             (:*COMPLIANCE . 8.516058e-7)
+                                             (:*VOLUME . 30260.508)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "Additive-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 30.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "SLM-printing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 90.9773)
+                                               (:*NOMINAL-COST . 181.9546))
+                                              ((:*NAME . "Support-removal")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 20.0)
+                                               (:*NOMINAL-COST . 20.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 20.0)
+                                               (:*NOMINAL-COST . 20.0))))))
