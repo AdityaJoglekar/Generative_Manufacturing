@@ -2,17 +2,18 @@
     "Name": "Request-A",
     "Part": "Bracket",
     "Quantity": 1,
-    "EarliestStartDate": "2022-02-05T08:00:00",
-    "DueDate": "2023-02-5T08:00:00",
+    "EarliestStartDate": "2023-11-06T00:00:00",
+    "DueDate": "2024-11-12T11:59:59",
     "SupplierNames": [
         "Supplier-A",
-        "Supplier-B"
+        "Supplier-B",
+        "Supplier-C"
     ],
     "ProcessPlans": [
         {
             "Name": "SLM-Additive-1",
             "Part": "Bracket",
-            "Link": "Studies/Engine_Mounting_Bracket_MVP\\config_1",
+            "Link": "Studies/Engine_Mounting_Bracket_MVP_test\\config_1",
             "Material": "Al6061powder",
             "ManufacturingMethod": "SLM-Additive",
             "BulkGrams": 222480.015625,
@@ -21,7 +22,7 @@
             "Width": 1000.0,
             "Height": 400.0,
             "Depth": 1000.0,
-            "Compliance": 74.1136703491211,
+            "Compliance": 1.896480917930603,
             "Volume": 80000007.62939455,
             "Task_Sequence": [
                 {

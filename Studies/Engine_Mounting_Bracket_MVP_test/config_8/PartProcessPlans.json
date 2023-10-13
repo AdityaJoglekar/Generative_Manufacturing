@@ -6,23 +6,24 @@
     "DueDate": "2023-02-5T08:00:00",
     "SupplierNames": [
         "Supplier-A",
-        "Supplier-B"
+        "Supplier-B",
+        "Supplier-C"
     ],
     "ProcessPlans": [
         {
             "Name": "SLM-Additive-1",
             "Part": "Bracket",
-            "Link": "Studies/Engine_Mounting_Bracket_MVP\\config_8",
-            "Material": "ABSplastic_powder",
+            "Link": "Studies/Engine_Mounting_Bracket_MVP_test\\config_8",
+            "Material": "ABSPlasticpowder",
             "ManufacturingMethod": "SLM-Additive",
-            "BulkGrams": 37197.421875,
-            "NetGrams": 34861.66796875,
-            "ScrapGrams": 2335.75390625,
+            "BulkGrams": 37412.734375,
+            "NetGrams": 36739.375,
+            "ScrapGrams": 673.3602905273438,
             "Width": 1000.0,
             "Height": 400.0,
             "Depth": 1000.0,
-            "Compliance": 1091.398193359375,
-            "Volume": 32888366.699218754,
+            "Compliance": 17.336864471435547,
+            "Volume": 34659790.03906251,
             "Task_Sequence": [
                 {
                     "Name": "Additive-machine-setup",
@@ -33,8 +34,8 @@
                 {
                     "Name": "SLM-printing",
                     "RequiredCapability": "SLM-Metal-Printing",
-                    "NominalDuration": 2231845.25,
-                    "NominalCost": 74394.84375
+                    "NominalDuration": 2244764.0,
+                    "NominalCost": 74825.46875
                 },
                 {
                     "Name": "Support-removal",

@@ -1,0 +1,121 @@
+{
+    "Name": "Request-A",
+    "Part": "Bracket",
+    "Quantity": 500,
+    "EarliestStartDate": "2023-11-06T00:00:00",
+    "DueDate": "2024-11-12T23:59:59",
+    "SupplierNames": [
+        "Supplier-A",
+	"Supplier-B",
+	"Supplier-C"
+    ],
+    "ProcessPlans": [
+        {
+            "Name": "EDM-Machining-1",
+            "Part": "Bracket",
+            "Link": "config_1_1",
+            "Material": "StainlessSteel",
+            "ManufacturingMethod": "EDM-Machining",
+            "BulkGrams": 3535,
+            "NetGrams": 182.54533359375,
+            "ScrapGrams": 923.3746664062501,
+            "Width": 160.0,
+            "Height": 80.0,
+            "Depth": 32.0,
+            "Compliance": 5.365378115129715e-07,
+            "Volume": 67609.3828125,
+            "Task_Sequence": [
+                {
+                    "Name": "EDM-Machining",
+                    "RequiredCapability": "EDM-Machining",
+                    "NominalDuration": 30.0,
+                    "NominalCost": 60.0
+                },
+                {
+                    "Name": "3-Axis-fixture-1",
+                    "RequiredCapability": "EDM-Machining",
+                    "NominalDuration": 10.0,
+                    "NominalCost": 30.0
+                },
+                {
+                    "Name": "3-Axis-machining-1",
+                    "RequiredCapability": "EDM-Machining",
+                    "NominalDuration": 22.690771102905273,
+                    "NominalCost": 68.07231140136719
+                },
+                {
+                    "Name": "3-Axis-fixture-2",
+                    "RequiredCapability": "EDM-Machining",
+                    "NominalDuration": 10.0,
+                    "NominalCost": 30.0
+                },
+                {
+                    "Name": "3-Axis-machining-2",
+                    "RequiredCapability": "EDM-Machining",
+                    "NominalDuration": 20.719615936279297,
+                    "NominalCost": 62.15884780883789
+                },
+                {
+                    "Name": "3-Axis-fixture-3",
+                    "RequiredCapability": "EDM-Machining",
+                    "NominalDuration": 10.0,
+                    "NominalCost": 30.0
+                },
+                {
+                    "Name": "3-Axis-machining-3",
+                    "RequiredCapability": "EDM-Machining",
+                    "NominalDuration": 6.301334857940674,
+                    "NominalCost": 18.90400505065918
+                },
+                {
+                    "Name": "3-Axis-fixture-4",
+                    "RequiredCapability": "EDM-Machining",
+                    "NominalDuration": 10.0,
+                    "NominalCost": 30.0
+                },
+                {
+                    "Name": "3-Axis-machining-4",
+                    "RequiredCapability": "EDM-Machining",
+                    "NominalDuration": 1.4192509651184082,
+                    "NominalCost": 4.257752895355225
+                },
+                {
+                    "Name": "3-Axis-fixture-5",
+                    "RequiredCapability": "EDM-Machining",
+                    "NominalDuration": 10.0,
+                    "NominalCost": 30.0
+                },
+                {
+                    "Name": "3-Axis-machining-5",
+                    "RequiredCapability": "EDM-Machining",
+                    "NominalDuration": 1.2177879810333252,
+                    "NominalCost": 3.6533639430999756
+                },
+                {
+                    "Name": "3-Axis-fixture-6",
+                    "RequiredCapability": "EDM-Machining",
+                    "NominalDuration": 10.0,
+                    "NominalCost": 30.0
+                },
+                {
+                    "Name": "3-Axis-machining-6",
+                    "RequiredCapability": "EDM-Machining",
+                    "NominalDuration": 0.6522252559661865,
+                    "NominalCost": 1.9566757678985596
+                },
+                {
+                    "Name": "Polishing",
+                    "RequiredCapability": "Buffing",
+                    "NominalDuration": 5.0,
+                    "NominalCost": 10.0
+                },
+                {
+                    "Name": "Inspection",
+                    "RequiredCapability": "Buffing",
+                    "NominalDuration": 20.0,
+                    "NominalCost": 20.0
+                }
+            ]
+        }
+    ]
+}

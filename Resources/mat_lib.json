@@ -21,7 +21,7 @@
         "am_print_rate": 0.001,
         "q_cut": 0.0004301066
     },
-    "ABSplastic":{
+    "ABSPlastic":{
         "E0":2.24e9,
         "Emin":1e-6,
         "nu": 0.38,

@@ -880,7 +880,7 @@ class nnopt:
                     fname = os.path.join(bids_path,f"{guess}_Bid_{i}.json")
                     with open(fname,"w") as json_file:
                             json.dump(data[i],json_file, indent=4)
-                    self.probe_dict['Supplier'].append(data[i]['suppliers'][0])
+                    self.probe_dict['Supplier'].append(data[i]['suppliers'])
                     self.probe_dict['Lead Time (min)'].append(round((data[i]["leadTime"])/60,2))
                     self.probe_dict['Cost ($)'].append(data[i]["cost"])
                     if i>0:
@@ -944,8 +944,7 @@ class nnopt:
             plot3d(xPhysf+svp,save = True)#, title = "support material (red)")     
             plt.savefig(os.path.join(self.directory_path, "support.png"), transparent=True)
 
-        if self.mat_name != "ABSplastic":
-            self.p_plans[0]["ProcessPlans"].extend([{
+        self.p_plans[0]["ProcessPlans"].extend([{
                 "Name":"SLM-Additive-1",
                 "Part": "Bracket",
                 "Link": self.directory_path,
@@ -984,46 +983,7 @@ class nnopt:
                     "NominalCost":float(self.add_c_inspection)                                       
                     }]
                 }])
-        else:
-            self.p_plans[0]["ProcessPlans"].extend([{
-                "Name":"SLM-Additive-1",
-                "Part": "Bracket",
-                "Link": self.directory_path,
-                "Material": self.mat_name + '_powder',
-                "ManufacturingMethod":"SLM-Additive",
-                "BulkGrams": float(total_mass* 1000.0),
-                "NetGrams":float(part_mass* 1000.0),
-                "ScrapGrams": float(sv_mass * 1000.0),
-                "Width":float(self.nelx*self.lele*1000.0),
-                "Height":float(self.nely*self.lele*1000.0),
-                "Depth":float(self.nelz*self.lele*1000.0),
-                "Compliance":c,
-                "Volume":float(np.sum(xPhys) *self.lele**3 * 1e9),
-                "Task_Sequence":[{
-                    "Name":"Additive-machine-setup",
-                    "RequiredCapability":"SLM-Metal-Printing",
-                    "NominalDuration":float(self.add_t_setup*60.0),
-                    "NominalCost":float(self.add_c_setup)
-                    },
-                    {
-                    "Name":"SLM-printing",
-                    "RequiredCapability":"SLM-Metal-Printing",
-                    "NominalDuration":float(print_time*60.0),
-                    "NominalCost":float(print_time*self.add_m_cost_per_min),
-                    },
-                    {
-                    "Name":"Support-removal",
-                    "RequiredCapability":"Buffing",
-                    "NominalDuration":float(self.add_t_support*60.0),
-                    "NominalCost":float(self.add_c_support)
-                    },
-                    {
-                    "Name":"Inspection",
-                    "RequiredCapability":"Buffing",
-                    "NominalDuration":float(self.add_t_inspection*60.0),
-                    "NominalCost":float(self.add_c_inspection)                                       
-                    }]
-                }])
+
         if guess:
             if not os.path.exists(os.path.join(self.directory_path,"ProbePlans")):
                 os.makedirs(os.path.join(self.directory_path,"ProbePlans"))
@@ -1043,7 +1003,7 @@ class nnopt:
                     fname = os.path.join(bids_path,f"{guess}_Bid_{i}.json")
                     with open(fname,"w") as json_file:
                             json.dump(data[i],json_file, indent=4)
-                    self.probe_dict['Supplier'].append(data[i]['suppliers'][0])
+                    self.probe_dict['Supplier'].append(data[i]['suppliers'])
                     self.probe_dict['Lead Time (min)'].append(round((data[i]["leadTime"])/60,2))
                     self.probe_dict['Cost ($)'].append(data[i]["cost"])
                     if i>0:
@@ -1185,7 +1145,7 @@ class nnopt:
                     fname = os.path.join(bids_path,f"{guess}_Bid_{i}.json")
                     with open(fname,"w") as json_file:
                             json.dump(data[i],json_file, indent=4)
-                    self.probe_dict['Supplier'].append(data[i]['suppliers'][0])
+                    self.probe_dict['Supplier'].append(data[i]['suppliers'])
                     self.probe_dict['Lead Time (min)'].append(round((data[i]["leadTime"])/60,2))
                     self.probe_dict['Cost ($)'].append(data[i]["cost"])
                     if i>0:
@@ -1360,6 +1320,7 @@ def mass_time_cost_vf_evaluator(opt1, mmm, design_probe_df, rh, mass_con, time_c
 
 def initialize_comp_and_vfs_in_objective(opt1,mmm, mass_con, mass_vf, cost_vf, time_vf):
     opt1.mass_con = mass_con
+    print('cost_vf')
     _,opt1.cost_con = opt1.time_cost_eval(cost_vf)
     opt1.time_con,_ = opt1.time_cost_eval(time_vf)
     print('opt1.cost_con',opt1.cost_con)
@@ -1563,7 +1524,8 @@ def run_opt(request_header_json = 'request_header.json', mmm_json = 'mmm.json',b
             
 
         #Infeasible constraints
-        elif (mmm["ManufacturingMethod"] == "Subtractive" or mmm["ManufacturingMethod"] == "EDM") and (mass_vf<cost_vf or mass_vf<time_vf):
+        elif (((mmm["ManufacturingMethod"] == "Subtractive" or mmm["ManufacturingMethod"] == "EDM") and (mass_vf<cost_vf or mass_vf<time_vf or mass_vf<0.02))
+                or ((mmm["ManufacturingMethod"] == "Additive") and (min(mass_vf,cost_vf,time_vf)<0.02))):
         # elif (mmm["ManufacturingMethod"] == "Subtractive") and (mass_vf<cost_vf or mass_vf<time_vf):
             print('mass_vf: ',mass_vf, 'cost_vf: ',cost_vf,'time_vf: ',time_vf)
             # print(True)
@@ -1649,7 +1611,7 @@ def run_opt(request_header_json = 'request_header.json', mmm_json = 'mmm.json',b
                     fname = os.path.join(bids_path,f"Bid_{i}.json")
                     with open(fname,"w") as json_file:
                             json.dump(data[i],json_file, indent=4)
-                    opt1.data_dict['Supplier'].append(data[i]['suppliers'][0])
+                    opt1.data_dict['Supplier'].append(data[i]['suppliers'])
                     opt1.data_dict['Lead Time (min)'].append(round((data[i]["leadTime"])/60,2))
                     opt1.data_dict['Cost ($)'].append(data[i]["cost"])
                     if i>0:

@@ -3,7 +3,7 @@
     "Orientation": [
         "y"
     ],
-    "Material": "ABSplastic",
+    "Material": "ABSPlastic",
     "Valid": false,
     "Reason": "Infeasible Constraints"
 }

@@ -1,222 +1,306 @@
 [
-  {
-    "Supplier": "Supplier-A",
-    "MachineName": "Haas OM 5-axis-SA-1",
-    "Type": "Haas-OM-5-axis",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 30,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1.1,
-    "CostCoefficient": 1.1
-  },
-  {
-    "Supplier": "Supplier-A",
-    "MachineName": "Haas OM 5-axis-SA-2",
-    "Type": "Haas-OM-5-axis",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 60,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-A",
-    "MachineName": "Haas OM 5-axis-SA-3",
-    "Type": "Haas-OM-5-axis",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 60,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-A",
-    "MachineName": "Haas OM 5-axis-SA-4",
-    "Type": "Haas-OM-5-axis",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 60,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-A",
-    "MachineName": "Haas DM 3-axis-SA-1",
-    "Type": "Haas-DM-3-axis",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 30,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-A",
-    "MachineName": "Polish-Station-SA-1",
-    "Type": "Polishing-Station",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 180,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-B",
-    "MachineName": "Polish-Station-SB-1",
-    "Type": "Polishing-Station",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 180,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-A",
-    "MachineName": "Inspection-Station SA-1",
-    "Type": "Inspection-Station",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 180,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-A",
-    "MachineName": "GF Machining Solutions AC Progress VP3-1",
-    "Type": "GF Machining Solutions AC Progress VP3",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 180,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-B",
-    "MachineName": "Stratasys F170-SB-1",
-    "Type": "Stratasys-F170",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 45,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-B",
-    "MachineName": "Stratasys F170-SB-2",
-    "Type": "Stratasys-F170",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 45,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-B",
-    "MachineName": "Stratasys Dimension Elite-SB-1",
-    "Type": "Stratasys-Dimension-Elite",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 30,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-B",
-    "MachineName": "Stratasys Dimension Elite-SB-2",
-    "Type": "Stratasys-Dimension-Elite",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 30,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-B",
-    "MachineName": "ExOne  Mflex-SB-1",
-    "Type": "ExOne-Mflex",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 45,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-B",
-    "MachineName": "Trumpf TruPrint3000-SB-1",
-    "Type": "Trumpf-TruPrint3000",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 45,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-A",
-    "MachineName": "Trumpf TruPrint3000-SA-1",
-    "Type": "Trumpf-TruPrint3000",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 45,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-B",
-    "MachineName": "Procudo-Laser-Peener-SB-1",
-    "Type": "Procudo-Laser-Peener",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 30,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-B",
-    "MachineName": "Support-Removal-Station-SB-1",
-    "Type": "Support-Removal-Station",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 180,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-B",
-    "MachineName": "Sintering-Station-SB-1",
-    "Type": "Sintering-Station",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 180,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-B",
-    "MachineName": "Sintering-Station-SB-2",
-    "Type": "Sintering-Station",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 180,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-B",
-    "MachineName": "Inspection-Station-SB-1",
-    "Type": "Inspection-Station",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 180,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  },
-  {
-    "Supplier": "Supplier-B",
-    "MachineName": "Manual support removal-1",
-    "Type": "Manual support removal",
-    "ShiftSchedule": "2-shifts",
-    "MaintenanceCycle[d]": 180,
-    "LastMainentance": "2022-02-05T00:00:00",
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
-  }
+    {
+        "Supplier": "Supplier-A",
+        "MachineName": "Haas OM 5-axis-SA-1",
+        "Type": "Haas-OM-5-axis",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1.1,
+        "CostCoefficient": 1.1
+    },
+    {
+        "Supplier": "Supplier-A",
+        "MachineName": "Haas OM 5-axis-SA-2",
+        "Type": "Haas-OM-5-axis",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-A",
+        "MachineName": "Haas OM 5-axis-SA-3",
+        "Type": "Haas-OM-5-axis",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-A",
+        "MachineName": "Haas OM 5-axis-SA-4",
+        "Type": "Haas-OM-5-axis",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-A",
+        "MachineName": "Haas DM 3-axis-SA-1",
+        "Type": "Haas-DM-3-axis",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-A",
+        "MachineName": "Polish-Station-SA-1",
+        "Type": "Polishing-Station",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-A",
+        "MachineName": "Inspection-Station SA-1",
+        "Type": "Inspection-Station",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-A",
+        "MachineName": "GF Machining Solutions AC Progress VP3-1-SA",
+        "Type": "GF Machining Solutions AC Progress VP3",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-B",
+        "MachineName": "Stratasys F170-SB-1",
+        "Type": "Stratasys-F170",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-B",
+        "MachineName": "Stratasys F170-SB-2",
+        "Type": "Stratasys-F170",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-B",
+        "MachineName": "Stratasys Dimension Elite-SB-1",
+        "Type": "Stratasys-Dimension-Elite",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-B",
+        "MachineName": "Stratasys Dimension Elite-SB-2",
+        "Type": "Stratasys-Dimension-Elite",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-B",
+        "MachineName": "ExOne  Mflex-SB-1",
+        "Type": "ExOne-Mflex",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-B",
+        "MachineName": "Trumpf TruPrint3000-SB-1",
+        "Type": "Trumpf-TruPrint3000",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-B",
+        "MachineName": "Procudo-Laser-Peener-SB-1",
+        "Type": "Procudo-Laser-Peener",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-B",
+        "MachineName": "Support-Removal-Station-SB-1",
+        "Type": "Support-Removal-Station",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-B",
+        "MachineName": "Sintering-Station-SB-1",
+        "Type": "Sintering-Station",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-B",
+        "MachineName": "Sintering-Station-SB-2",
+        "Type": "Sintering-Station",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-B",
+        "MachineName": "Inspection-Station-SB-1",
+        "Type": "Inspection-Station",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-B",
+        "MachineName": "Manual support removal-SB-1",
+        "Type": "Manual support removal",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-B",
+        "MachineName": "Polish-Station-SB-1",
+        "Type": "Polishing-Station",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-C",
+        "MachineName": "Haas OM 5-axis-SC-1",
+        "Type": "Haas-OM-5-axis",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1.1,
+        "CostCoefficient": 1.5
+    },
+    {
+        "Supplier": "Supplier-C",
+        "MachineName": "Haas DM 3-axis-SC-1",
+        "Type": "Haas-DM-3-axis",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1.5
+    },
+    {
+        "Supplier": "Supplier-C",
+        "MachineName": "GF Machining Solutions AC Progress VP3-1-SC",
+        "Type": "GF Machining Solutions AC Progress VP3",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1.5
+    },
+    {
+        "Supplier": "Supplier-C",
+        "MachineName": "Polish-Station-SC-1",
+        "Type": "Polishing-Station",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1.5
+    },
+    {
+        "Supplier": "Supplier-C",
+        "MachineName": "Inspection-Station SC-1",
+        "Type": "Inspection-Station",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1.5
+    },
+    {
+        "Supplier": "Supplier-C",
+        "MachineName": "Stratasys Dimension Elite-SC-1",
+        "Type": "Stratasys-Dimension-Elite",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1.5
+    },
+    {
+        "Supplier": "Supplier-C",
+        "MachineName": "ExOne  Mflex-SC-1",
+        "Type": "ExOne-Mflex",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1.5
+    },
+    {
+        "Supplier": "Supplier-C",
+        "MachineName": "Trumpf TruPrint3000-SC-1",
+        "Type": "Trumpf-TruPrint3000",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1.5
+    },
+    {
+        "Supplier": "Supplier-C",
+        "MachineName": "Procudo-Laser-Peener-SC-1",
+        "Type": "Procudo-Laser-Peener",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1.5
+    },
+    {
+        "Supplier": "Supplier-C",
+        "MachineName": "Support-Removal-Station-SC-1",
+        "Type": "Support-Removal-Station",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1.5
+    },
+    {
+        "Supplier": "Supplier-C",
+        "MachineName": "Sintering-Station-SC-1",
+        "Type": "Sintering-Station",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1.5
+    },
+    {
+        "Supplier": "Supplier-C",
+        "MachineName": "Sintering-Station-SC-2",
+        "Type": "Sintering-Station",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1.5
+    },
+    {
+        "Supplier": "Supplier-C",
+        "MachineName": "Inspection-Station-SC-1",
+        "Type": "Inspection-Station",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1.5
+    },
+    {
+        "Supplier": "Supplier-C",
+        "MachineName": "Manual support removal-SC-1",
+        "Type": "Manual support removal",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1.5
+    },
+    {
+        "Supplier": "Supplier-A",
+        "MachineName": "Reorderer-SA",
+        "Type": "Reorderer",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-B",
+        "MachineName": "Reorderer-SB",
+        "Type": "Reorderer",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-C",
+        "MachineName": "Reorderer-SC",
+        "Type": "Reorderer",
+        "ShiftSchedule": "2-shifts",
+        "TimeCoefficient": 1,
+        "CostCoefficient": 1
+    }
 ]

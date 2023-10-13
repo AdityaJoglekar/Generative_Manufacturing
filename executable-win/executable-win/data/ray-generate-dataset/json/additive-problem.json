@@ -13,8 +13,8 @@
             "Name": "SLM-Additive-1",
             "Part": "Bracket",
             "Link": "config_1_9",
-            "Material": "Al6061powder",
-            "ManufacturingMethod": "SLM-Additive",
+            "Material": "ABSplastic",
+            "ManufacturingMethod": "FDM-Printing",
             "BulkGrams": 90.9781723022461,
             "NetGrams": 81.70337677001953,
             "ScrapGrams": 9.274799346923828,
@@ -26,13 +26,13 @@
             "Task_Sequence": [
                 {
                     "Name": "Additive-machine-setup",
-                    "RequiredCapability": "SLM-Metal-Printing",
+                    "RequiredCapability": "FDM-Printing",
                     "NominalDuration": 30.0,
                     "NominalCost": 60.0
                 },
                 {
                     "Name": "SLM-printing",
-                    "RequiredCapability": "SLM-Metal-Printing",
+                    "RequiredCapability": "FDM-Printing",
                     "NominalDuration": 90.9781723022461,
                     "NominalCost": 181.9563446044922
                 },

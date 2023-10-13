@@ -1,0 +1,97 @@
+[
+    {
+        "AgentId": "Haas OM 5-axis-SA-1",
+        "StartTime": "2023-11-06T00:00:00",
+        "Duration": "3.5 days"
+    },
+    {
+        "AgentId": "Haas OM 5-axis-SA-2",
+        "StartTime": "2023-11-06T00:00:00",
+        "Duration": "10.5 days"
+    },
+    {
+        "AgentId": "Haas OM 5-axis-SA-2",
+        "StartTime": "2023-11-18T06:00:00",
+        "Duration": "10.5 days"
+    },
+    {
+        "AgentId": "Haas OM 5-axis-SA-3",
+        "StartTime": "2023-11-06T00:00:00",
+        "Duration": "10.5 days"
+    },
+    {
+        "AgentId": "Haas OM 5-axis-SA-4",
+        "StartTime": "2023-11-06T00:00:00",
+        "Duration": "7 days"
+    },
+    {
+        "AgentId": "Haas DM 3-axis-SA-1",
+        "StartTime": "2023-11-06T00:00:00",
+        "Duration": "7 days"
+    },
+    {
+        "AgentId": "Stratasys F170-SB-1",
+        "StartTime": "2023-11-06T00:00:00",
+        "Duration": "7 days"
+    },
+    {
+        "AgentId": "Stratasys F170-SB-1",
+        "StartTime": "2023-11-16T00:06:00",
+        "Duration": "3.5 days"
+    },
+    {
+        "AgentId": "Stratasys F170-SB-2",
+        "StartTime": "2023-11-06T00:00:00",
+        "Duration": "7 days"
+    },
+    {
+        "AgentId": "Stratasys Dimension Elite-SB-1",
+        "StartTime": "2023-11-06T00:00:00",
+        "Duration": "10.5 days"
+    },
+    {
+        "AgentId": "Stratasys Dimension Elite-SB-2",
+        "StartTime": "2023-11-06T00:00:00",
+        "Duration": "10.5 days"
+    },
+    {
+        "AgentId": "ExOne  Mflex-SB-1",
+        "StartTime": "2023-11-06T00:00:00",
+        "Duration": "3.5 days"
+    },
+    {
+        "AgentId": "Trumpf TruPrint3000-SB-1",
+        "StartTime": "2023-11-06T00:00:00",
+        "Duration": "9 days"
+    },
+    {
+        "AgentId": "Haas OM 5-axis-SC-1",
+        "StartTime": "2023-11-06T00:00:00",
+        "Duration": "9 days"
+    },
+    {
+        "AgentId": "Haas DM 3-axis-SC-1",
+        "StartTime": "2023-11-06T00:00:00",
+        "Duration": "3.5 days"
+    },
+    {
+        "AgentId": "Stratasys Dimension Elite-SC-1",
+        "StartTime": "2023-11-06T00:00:00",
+        "Duration": "3.5 days"
+    },
+    {
+        "AgentId": "ExOne  Mflex-SC-1",
+        "StartTime": "2023-11-06T00:00:00",
+        "Duration": "7 days"
+    },
+    {
+        "AgentId": "Trumpf TruPrint3000-SC-1",
+        "StartTime": "2023-11-06T00:00:00",
+        "Duration": "3.5 days"
+    },
+    {
+        "AgentId": "Trumpf TruPrint3000-SC-1",
+        "StartTime": "2023-11-13T00:00:00",
+        "Duration": "6 days"
+    }
+]

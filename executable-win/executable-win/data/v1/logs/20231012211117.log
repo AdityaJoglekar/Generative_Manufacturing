@@ -1,0 +1,46 @@
+[3906148277.312923 INFO] Legal Time Range:  [Jan  1 1970 00:00:00] -- [Sep 25 73069258125 03:52:31]
+[3906148277.339793 INFO] Loading problem from /ozone/src/models/lmco/executable-win/data/ray-generate-dataset/json/
+[3906148996.438712 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 100)
+                                           (:*EARLIEST-START-DATE
+                                            . "2023-11-06T00:00:00")
+                                           (:*DUE-DATE . "2024-11-12T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "FDM-Additive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK . "config_1_9")
+                                             (:*MATERIAL . "ABSPlasticpowder")
+                                             (:*MANUFACTURING-METHOD
+                                              . "FDM-Printing")
+                                             (:*BULK-GRAMS . 3535)
+                                             (:*NET-GRAMS . 81.70338)
+                                             (:*SCRAP-GRAMS . 9.274799)
+                                             (:*WIDTH . 160.0)
+                                             (:*HEIGHT . 80.0) (:*DEPTH . 32.0)
+                                             (:*COMPLIANCE . 8.5160605e-7)
+                                             (:*VOLUME . 30260.512)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "Additive-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "FDM-Printing")
+                                               (:*NOMINAL-DURATION . 30.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "SLM-printing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "FDM-Printing")
+                                               (:*NOMINAL-DURATION . 90.97817)
+                                               (:*NOMINAL-COST . 181.95634))
+                                              ((:*NAME . "Support-removal")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 20.0)
+                                               (:*NOMINAL-COST . 20.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 20.0)
+                                               (:*NOMINAL-COST . 20.0))))))

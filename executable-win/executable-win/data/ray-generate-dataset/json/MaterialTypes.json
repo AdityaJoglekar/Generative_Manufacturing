@@ -2,56 +2,56 @@
   {
     "Name": "Al6061",
     "Type": "Aluminum",
-    "UnitCost": 0.5,
+    "UnitCost": 3.0,
     "TimeCoefficient": 1,
     "CostCoefficient": 1
   },
   {
     "Name": "Ti6Al4V",
     "Type": "Titanium",
-    "UnitCost": 1.1,
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
+    "UnitCost": 100,
+    "TimeCoefficient": 1.0,
+    "CostCoefficient": 1.0
   },
   {
-    "Name": "ABSplastic",
+    "Name": "ABSPlastic",
     "Type": "Thermoplastics",
-    "UnitCost": 0.25,
-    "TimeCoefficient": 1,
-    "CostCoefficient": 1
+    "UnitCost": 2.0,
+    "TimeCoefficient": 1.0,
+    "CostCoefficient": 1.0
   },
   {
     "Name": "Al6061powder",
     "Type": "Aluminum",
-    "UnitCost": 0.5,
+    "UnitCost": 185,
     "TimeCoefficient": 1,
     "CostCoefficient": 1
   },
   {
     "Name": "Ti6Al4Vpowder",
     "Type": "Titanium",
-    "UnitCost": 1.1,
+    "UnitCost": 429,
     "TimeCoefficient": 1,
     "CostCoefficient": 1
   },
   {
-    "Name": "ABSplastic_powder",
+    "Name": "ABSPlasticpowder",
     "Type": "Thermoplastics",
-    "UnitCost": 0.25,
+    "UnitCost": 2.0,
     "TimeCoefficient": 1,
     "CostCoefficient": 1
   },
   {
     "Name": "StainlessSteel",
     "Type": "Steel",
-    "UnitCost": 1,
+    "UnitCost": 1.408,
     "TimeCoefficient": 1,
     "CostCoefficient": 1
   },
   {
     "Name": "StainlessSteelpowder",
     "Type": "Steel",
-    "UnitCost": 1,
+    "UnitCost": 135,
     "TimeCoefficient": 1,
     "CostCoefficient": 1
   },

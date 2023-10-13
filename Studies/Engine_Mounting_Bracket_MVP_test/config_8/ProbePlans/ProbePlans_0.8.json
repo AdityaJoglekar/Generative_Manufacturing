@@ -6,14 +6,15 @@
     "DueDate": "2023-02-5T08:00:00",
     "SupplierNames": [
         "Supplier-A",
-        "Supplier-B"
+        "Supplier-B",
+        "Supplier-C"
     ],
     "ProcessPlans": [
         {
             "Name": "SLM-Additive-1",
             "Part": "Bracket",
-            "Link": "Studies/Engine_Mounting_Bracket_MVP\\config_8",
-            "Material": "ABSplastic_powder",
+            "Link": "Studies/Engine_Mounting_Bracket_MVP_test\\config_8",
+            "Material": "ABSPlasticpowder",
             "ManufacturingMethod": "SLM-Additive",
             "BulkGrams": 349376.03125,
             "NetGrams": 339200.03125,
@@ -21,7 +22,7 @@
             "Width": 1000.0,
             "Height": 400.0,
             "Depth": 1000.0,
-            "Compliance": 134.563720703125,
+            "Compliance": 3.4432637691497803,
             "Volume": 320000030.5175782,
             "Task_Sequence": [
                 {

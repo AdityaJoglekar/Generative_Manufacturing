@@ -8,7 +8,7 @@
         "z+",
         "z-"
     ],
-    "Material": "ABSplastic",
+    "Material": "ABSPlastic",
     "Valid": false,
     "Reason": "Infeasible Constraints"
 }
