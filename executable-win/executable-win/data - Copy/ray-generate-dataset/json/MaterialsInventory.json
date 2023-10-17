@@ -1,0 +1,98 @@
+[
+    {
+        "Supplier": "Supplier-A",
+        "Name": "Al6061",
+        "AmountOnHand[grams]": 1692750,
+        "ReorderLeadTime[days]": 30,
+        "ReorderQuantity[grams]": 10000000,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-A",
+        "Name": "Ti6Al4V",
+        "AmountOnHand[grams]": 3400000,
+        "ReorderLeadTime[days]": 45,
+        "ReorderQuantity[grams]": 10000000,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-A",
+        "Name": "ABSPlastic",
+        "AmountOnHand[grams]": 667250,
+        "ReorderLeadTime[days]": 30,
+        "ReorderQuantity[grams]": 5000000,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-A",
+        "Name": "StainlessSteel",
+        "AmountOnHand[grams]": 2200500,
+        "ReorderLeadTime[days]": 45,
+        "ReorderQuantity[grams]": 5000000,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-B",
+        "Name": "Al6061powder",
+        "AmountOnHand[grams]": 700000,
+        "ReorderLeadTime[days]": 30,
+        "ReorderQuantity[grams]": 1000000,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-B",
+        "Name": "Ti6Al4Vpowder",
+        "AmountOnHand[grams]": 1600000,
+        "ReorderLeadTime[days]": 45,
+        "ReorderQuantity[grams]": 2000000,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-B",
+        "Name": "ABSPlasticpowder",
+        "AmountOnHand[grams]": 30000,
+        "ReorderLeadTime[days]": 30,
+        "ReorderQuantity[grams]": 1000000,
+        "CostCoefficient": 1
+    },
+    {
+        "Supplier": "Supplier-C",
+        "Name": "Al6061powder",
+        "AmountOnHand[grams]": 1000000,
+        "ReorderLeadTime[days]": 30,
+        "ReorderQuantity[grams]": 1000000,
+        "CostCoefficient": 1.5
+    },
+    {
+        "Supplier": "Supplier-C",
+        "Name": "Al6061",
+        "AmountOnHand[grams]": 3232500,
+        "ReorderLeadTime[days]": 30,
+        "ReorderQuantity[grams]": 10000000,
+        "CostCoefficient": 1.5
+    },
+    {
+        "Supplier": "Supplier-C",
+        "Name": "Ti6Al4V",
+        "AmountOnHand[grams]": 3110000,
+        "ReorderLeadTime[days]": 45,
+        "ReorderQuantity[grams]": 10000000,
+        "CostCoefficient": 1.5
+    },
+    {
+        "Supplier": "Supplier-C",
+        "Name": "ABSPlasticpowder",
+        "AmountOnHand[grams]": 5000000,
+        "ReorderLeadTime[days]": 30,
+        "ReorderQuantity[grams]": 5000000,
+        "CostCoefficient": 1.5
+    },
+    {
+        "Supplier": "Supplier-C",
+        "Name": "StainlessSteel",
+        "AmountOnHand[grams]": 950300,
+        "ReorderLeadTime[days]": 45,
+        "ReorderQuantity[grams]": 5000000,
+        "CostCoefficient": 1.5
+    }
+]

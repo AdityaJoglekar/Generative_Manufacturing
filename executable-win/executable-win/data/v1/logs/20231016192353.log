@@ -1,0 +1,177 @@
+[3906487433.023833 INFO] Legal Time Range:  [Jan  1 1970 00:00:00] -- [Sep 25 73069258125 03:52:31]
+[3906487433.026357 INFO] Loading problem from /Users/hongr/Documents/aditya/Generative_Design_and_Manufacturing2/executable-win/executable-win/data/ray-generate-dataset/json/
+[3906487466.819686 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2023-11-06T00:00:00")
+                                           (:*DUE-DATE . "2028-11-12T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "SLM-Additive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_2\\config_1")
+                                             (:*MATERIAL . "Al6061powder")
+                                             (:*MANUFACTURING-METHOD
+                                              . "SLM-Additive")
+                                             (:*BULK-GRAMS . 32906.293)
+                                             (:*NET-GRAMS . 32770.92)
+                                             (:*SCRAP-GRAMS . 135.36986)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 2.0864186)
+                                             (:*VOLUME . 1.213738e7)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "Additive-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "SLM-printing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 1974377.4)
+                                               (:*NOMINAL-COST . 65812.58))
+                                              ((:*NAME . "Support-removal")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906487475.110135 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2023-11-06T00:00:00")
+                                           (:*DUE-DATE . "2028-11-12T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "SLM-Additive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_2\\config_1")
+                                             (:*MATERIAL . "Al6061powder")
+                                             (:*MANUFACTURING-METHOD
+                                              . "SLM-Additive")
+                                             (:*BULK-GRAMS . 32906.293)
+                                             (:*NET-GRAMS . 32770.92)
+                                             (:*SCRAP-GRAMS . 135.36986)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 2.0864186)
+                                             (:*VOLUME . 1.213738e7)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "Additive-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "SLM-printing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 1974377.4)
+                                               (:*NOMINAL-COST . 65812.58))
+                                              ((:*NAME . "Support-removal")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906487529.391436 INFO] connection => #<SB-SYS:FD-STREAM for #<SB-BSD-SOCKETS:INET-SOCKET 127.0.0.1:9090, peer: 127.0.0.1:62960, fd: 476 {1002B0A9C3}> {1002B0BAD3}>
+path => "/bids-graph"
+vals => ((:CONNECTION . "keep-alive")
+         (:USER-AGENT
+          . "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"))
+response => "<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Bids</h2>
+
+<ula>
+<li><a href=\"bid-graph=1\">Bid 1 (Supplier-B)</a></li>
+<li><a href=\"bid-graph=2\">Bid 2 (Supplier-C)</a></li>
+</ul>
+</html>"
+[3906487529.419304 INFO] connection => #<SB-SYS:FD-STREAM for #<SB-BSD-SOCKETS:INET-SOCKET 127.0.0.1:9090, peer: 127.0.0.1:62960, fd: 476 {1002B0A9C3}> {1002B0BAD3}>
+path => "/favicon.ico"
+vals => ((:CONNECTION . "keep-alive")
+         (:USER-AGENT
+          . "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"))
+response => NIL
+[3906487531.176299 INFO] connection => #<SB-SYS:FD-STREAM for #<SB-BSD-SOCKETS:INET-SOCKET 127.0.0.1:9090, peer: 127.0.0.1:62961, fd: 492 {1002B0BEB3}> {1002CA3CD3}>
+path => "/bid-graph=1"
+vals => ((:CONNECTION . "keep-alive")
+         (:USER-AGENT
+          . "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"))
+response => "<script type=\"text/javascript\" src=\"https://www.gstatic.com/charts/loader.js\"></script>
+
+<script type=\"text/javascript\">
+  google.charts.load(\"current\", {packages:[\"timeline\"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+
+    var container = document.getElementById('lmco-agenda-graph');
+    var chart = new google.visualization.Timeline(container);
+    var dataTable = new google.visualization.DataTable();
+    dataTable.addColumn({ type: 'string', id: 'Agent' });
+    dataTable.addColumn({ type: 'string', id: 'Task' });
+    dataTable.addColumn({ type: 'string', id: 'color', role: 'style' });
+    dataTable.addColumn({ type: 'string', role: 'tooltip', 'p': {'html': true}});
+    dataTable.addColumn({ type: 'date', id: 'Start' });
+    dataTable.addColumn({ type: 'date', id: 'End' });
+
+    dataTable.addRows([
+[ 'Supplier-B', '', '#FFA500', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"></table>', new Date(2023,10,6,0,0,0), new Date(2023,11,7,21,36,18)],
+[ 'ExOne  Mflex-SB-1', 'DOWNTIME-12', '#21130D', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"><tr><th>TASK-NAME:</th><td>DOWNTIME</td></tr><tr><th>INSTANCE-NAME:</th><td>12</td></tr><tr><th>LOT:</th><td>NIL</td></tr><tr><th>ORDER:</th><td>NIL</td></tr><tr><th>AGENT:</th><td>ExOne  Mflex-SB-1</td></tr><tr><th>CONFIG:</th><td>NIL</td></tr><tr><th>SUPPLIER:</th><td>Supplier-B</td></tr><tr><th>TASK-TYPE:</th><td>DOWNTIME-TASK</td></tr><tr><th>STATUS:</th><td>SCHEDULED</td></tr><tr><th>EST:</th><td>Nov  6 2023 00:00</td></tr><tr><th>LST:</th><td>Nov  6 2023 00:00</td></tr><tr><th>EFT:</th><td>Nov  9 2023 12:00</td></tr><tr><th>LFT:</th><td>Nov  9 2023 12:00</td></tr></table>', new Date(2023,10,6,0,0,0), new Date(2023,10,9,12,0,0)],
+[ 'Inspection-Station-SB-1', 'Unused', '#E6E6E6', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"></table>', new Date(2023,10,6,0,0,0), new Date(2023,10,6,0,0,0)],
+[ 'Manual support removal-SB-1', 'Unused', '#E6E6E6', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"></table>', new Date(2023,10,6,0,0,0), new Date(2023,10,6,0,0,0)],
+[ 'Polish-Station-SB-1', 'Support-removal-11', '#3AC248', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"><tr><th>TASK-NAME:</th><td>Support-removal</td></tr><tr><th>INSTANCE-NAME:</th><td>11</td></tr><tr><th>LOT:</th><td>2</td></tr><tr><th>ORDER:</th><td>Request-A</td></tr><tr><th>AGENT:</th><td>Polish-Station-SB-1</td></tr><tr><th>CONFIG:</th><td>NIL</td></tr><tr><th>SUPPLIER:</th><td>Supplier-B</td></tr><tr><th>TASK-TYPE:</th><td>EXECUTABLE</td></tr><tr><th>STATUS:</th><td>SCHEDULED</td></tr><tr><th>EST:</th><td>Dec  7 2023 20:56</td></tr><tr><th>LST:</th><td>Nov 12 2028 23:19</td></tr><tr><th>EFT:</th><td>Dec  7 2023 21:16</td></tr><tr><th>LFT:</th><td>Nov 12 2028 23:39</td></tr></table>', new Date(2023,11,7,20,56,18), new Date(2023,11,7,21,16,18)],
+[ 'Polish-Station-SB-1', 'Inspection-12', '#3AC248', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"><tr><th>TASK-NAME:</th><td>Inspection</td></tr><tr><th>INSTANCE-NAME:</th><td>12</td></tr><tr><th>LOT:</th><td>2</td></tr><tr><th>ORDER:</th><td>Request-A</td></tr><tr><th>AGENT:</th><td>Polish-Station-SB-1</td></tr><tr><th>CONFIG:</th><td>NIL</td></tr><tr><th>SUPPLIER:</th><td>Supplier-B</td></tr><tr><th>TASK-TYPE:</th><td>EXECUTABLE</td></tr><tr><th>STATUS:</th><td>SCHEDULED</td></tr><tr><th>EST:</th><td>Dec  7 2023 21:16</td></tr><tr><th>LST:</th><td>Nov 12 2028 23:39</td></tr><tr><th>EFT:</th><td>Dec  7 2023 21:36</td></tr><tr><th>LFT:</th><td>Nov 12 2028 23:59</td></tr></table>', new Date(2023,11,7,21,16,18), new Date(2023,11,7,21,36,18)],
+[ 'Procudo-Laser-Peener-SB-1', 'Unused', '#E6E6E6', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"></table>', new Date(2023,10,6,0,0,0), new Date(2023,10,6,0,0,0)],
+[ 'Reorderer-SB', 'Unused', '#E6E6E6', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"></table>', new Date(2023,10,6,0,0,0), new Date(2023,10,6,0,0,0)],
+[ 'Sintering-Station-SB-1', 'Unused', '#E6E6E6', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"></table>', new Date(2023,10,6,0,0,0), new Date(2023,10,6,0,0,0)],
+[ 'Sintering-Station-SB-2', 'Unused', '#E6E6E6', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"></table>', new Date(2023,10,6,0,0,0), new Date(2023,10,6,0,0,0)],
+[ 'Stratasys Dimension Elite-SB-1', 'DOWNTIME-10', '#21130D', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"><tr><th>TASK-NAME:</th><td>DOWNTIME</td></tr><tr><th>INSTANCE-NAME:</th><td>10</td></tr><tr><th>LOT:</th><td>NIL</td></tr><tr><th>ORDER:</th><td>NIL</td></tr><tr><th>AGENT:</th><td>Stratasys Dimension Elite-SB-1</td></tr><tr><th>CONFIG:</th><td>NIL</td></tr><tr><th>SUPPLIER:</th><td>Supplier-B</td></tr><tr><th>TASK-TYPE:</th><td>DOWNTIME-TASK</td></tr><tr><th>STATUS:</th><td>SCHEDULED</td></tr><tr><th>EST:</th><td>Nov  6 2023 00:00</td></tr><tr><th>LST:</th><td>Nov  6 2023 00:00</td></tr><tr><th>EFT:</th><td>Nov 16 2023 12:00</td></tr><tr><th>LFT:</th><td>Nov 16 2023 12:00</td></tr></table>', new Date(2023,10,6,0,0,0), new Date(2023,10,16,12,0,0)],
+[ 'Stratasys Dimension Elite-SB-2', 'DOWNTIME-11', '#21130D', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"><tr><th>TASK-NAME:</th><td>DOWNTIME</td></tr><tr><th>INSTANCE-NAME:</th><td>11</td></tr><tr><th>LOT:</th><td>NIL</td></tr><tr><th>ORDER:</th><td>NIL</td></tr><tr><th>AGENT:</th><td>Stratasys Dimension Elite-SB-2</td></tr><tr><th>CONFIG:</th><td>NIL</td></tr><tr><th>SUPPLIER:</th><td>Supplier-B</td></tr><tr><th>TASK-TYPE:</th><td>DOWNTIME-TASK</td></tr><tr><th>STATUS:</th><td>SCHEDULED</td></tr><tr><th>EST:</th><td>Nov  6 2023 00:00</td></tr><tr><th>LST:</th><td>Nov  6 2023 00:00</td></tr><tr><th>EFT:</th><td>Nov 16 2023 12:00</td></tr><tr><th>LFT:</th><td>Nov 16 2023 12:00</td></tr></table>', new Date(2023,10,6,0,0,0), new Date(2023,10,16,12,0,0)],
+[ 'Stratasys F170-SB-1', 'DOWNTIME-7', '#21130D', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"><tr><th>TASK-NAME:</th><td>DOWNTIME</td></tr><tr><th>INSTANCE-NAME:</th><td>7</td></tr><tr><th>LOT:</th><td>NIL</td></tr><tr><th>ORDER:</th><td>NIL</td></tr><tr><th>AGENT:</th><td>Stratasys F170-SB-1</td></tr><tr><th>CONFIG:</th><td>NIL</td></tr><tr><th>SUPPLIER:</th><td>Supplier-B</td></tr><tr><th>TASK-TYPE:</th><td>DOWNTIME-TASK</td></tr><tr><th>STATUS:</th><td>SCHEDULED</td></tr><tr><th>EST:</th><td>Nov  6 2023 00:00</td></tr><tr><th>LST:</th><td>Nov  6 2023 00:00</td></tr><tr><th>EFT:</th><td>Nov 13 2023 00:00</td></tr><tr><th>LFT:</th><td>Nov 13 2023 00:00</td></tr></table>', new Date(2023,10,6,0,0,0), new Date(2023,10,13,0,0,0)],
+[ 'Stratasys F170-SB-1', 'DOWNTIME-8', '#21130D', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"><tr><th>TASK-NAME:</th><td>DOWNTIME</td></tr><tr><th>INSTANCE-NAME:</th><td>8</td></tr><tr><th>LOT:</th><td>NIL</td></tr><tr><th>ORDER:</th><td>NIL</td></tr><tr><th>AGENT:</th><td>Stratasys F170-SB-1</td></tr><tr><th>CONFIG:</th><td>NIL</td></tr><tr><th>SUPPLIER:</th><td>Supplier-B</td></tr><tr><th>TASK-TYPE:</th><td>DOWNTIME-TASK</td></tr><tr><th>STATUS:</th><td>SCHEDULED</td></tr><tr><th>EST:</th><td>Nov 16 2023 00:06</td></tr><tr><th>LST:</th><td>Nov 16 2023 00:06</td></tr><tr><th>EFT:</th><td>Nov 19 2023 12:06</td></tr><tr><th>LFT:</th><td>Nov 19 2023 12:06</td></tr></table>', new Date(2023,10,16,0,6,0), new Date(2023,10,19,12,6,0)],
+[ 'Stratasys F170-SB-2', 'DOWNTIME-9', '#21130D', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"><tr><th>TASK-NAME:</th><td>DOWNTIME</td></tr><tr><th>INSTANCE-NAME:</th><td>9</td></tr><tr><th>LOT:</th><td>NIL</td></tr><tr><th>ORDER:</th><td>NIL</td></tr><tr><th>AGENT:</th><td>Stratasys F170-SB-2</td></tr><tr><th>CONFIG:</th><td>NIL</td></tr><tr><th>SUPPLIER:</th><td>Supplier-B</td></tr><tr><th>TASK-TYPE:</th><td>DOWNTIME-TASK</td></tr><tr><th>STATUS:</th><td>SCHEDULED</td></tr><tr><th>EST:</th><td>Nov  6 2023 00:00</td></tr><tr><th>LST:</th><td>Nov  6 2023 00:00</td></tr><tr><th>EFT:</th><td>Nov 13 2023 00:00</td></tr><tr><th>LFT:</th><td>Nov 13 2023 00:00</td></tr></table>', new Date(2023,10,6,0,0,0), new Date(2023,10,13,0,0,0)],
+[ 'Support-Removal-Station-SB-1', 'Unused', '#E6E6E6', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"></table>', new Date(2023,10,6,0,0,0), new Date(2023,10,6,0,0,0)],
+[ 'Trumpf TruPrint3000-SB-1', 'DOWNTIME-13', '#21130D', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"><tr><th>TASK-NAME:</th><td>DOWNTIME</td></tr><tr><th>INSTANCE-NAME:</th><td>13</td></tr><tr><th>LOT:</th><td>NIL</td></tr><tr><th>ORDER:</th><td>NIL</td></tr><tr><th>AGENT:</th><td>Trumpf TruPrint3000-SB-1</td></tr><tr><th>CONFIG:</th><td>NIL</td></tr><tr><th>SUPPLIER:</th><td>Supplier-B</td></tr><tr><th>TASK-TYPE:</th><td>DOWNTIME-TASK</td></tr><tr><th>STATUS:</th><td>SCHEDULED</td></tr><tr><th>EST:</th><td>Nov  6 2023 00:00</td></tr><tr><th>LST:</th><td>Nov  6 2023 00:00</td></tr><tr><th>EFT:</th><td>Nov 15 2023 00:00</td></tr><tr><th>LFT:</th><td>Nov 15 2023 00:00</td></tr></table>', new Date(2023,10,6,0,0,0), new Date(2023,10,15,0,0,0)],
+[ 'Trumpf TruPrint3000-SB-1', 'Additive-machine-setup-9', '#3AC248', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"><tr><th>TASK-NAME:</th><td>Additive-machine-setup</td></tr><tr><th>INSTANCE-NAME:</th><td>9</td></tr><tr><th>LOT:</th><td>2</td></tr><tr><th>ORDER:</th><td>Request-A</td></tr><tr><th>AGENT:</th><td>Trumpf TruPrint3000-SB-1</td></tr><tr><th>CONFIG:</th><td>NIL</td></tr><tr><th>SUPPLIER:</th><td>Supplier-B</td></tr><tr><th>TASK-TYPE:</th><td>EXECUTABLE</td></tr><tr><th>STATUS:</th><td>SCHEDULED</td></tr><tr><th>EST:</th><td>Nov 15 2023 00:00</td></tr><tr><th>LST:</th><td>Oct 21 2028 02:23</td></tr><tr><th>EFT:</th><td>Nov 15 2023 00:30</td></tr><tr><th>LFT:</th><td>Oct 21 2028 02:53</td></tr></table>', new Date(2023,10,15,0,0,0), new Date(2023,10,15,0,30,0)],
+[ 'Trumpf TruPrint3000-SB-1', 'SLM-printing-10', '#3AC248', '<style> th {text-align: left;} td {text-align: right;}</style><table style=\"width:100%;background-color:Cornsilk;\"><tr><th>TASK-NAME:</th><td>SLM-printing</td></tr><tr><th>INSTANCE-NAME:</th><td>10</td></tr><tr><th>LOT:</th><td>2</td></tr><tr><th>ORDER:</th><td>Request-A</td></tr><tr><th>AGENT:</th><td>Trumpf TruPrint3000-SB-1</td></tr><tr><th>CONFIG:</th><td>NIL</td></tr><tr><th>SUPPLIER:</th><td>Supplier-B</td></tr><tr><th>TASK-TYPE:</th><td>EXECUTABLE</td></tr><tr><th>STATUS:</th><td>SCHEDULED</td></tr><tr><th>EST:</th><td>Nov 15 2023 00:30</td></tr><tr><th>LST:</th><td>Oct 21 2028 02:53</td></tr><tr><th>EFT:</th><td>Dec  7 2023 20:56</td></tr><tr><th>LFT:</th><td>Nov 12 2028 23:19</td></tr></table>', new Date(2023,10,15,0,30,0), new Date(2023,11,7,20,56,18)],
+]);
+
+    var options = {
+      timeline: {rowLabelStyle: {fontName: 'Ariel', fontSize: 14, color: '#000000' }},
+      tooltip: {isHtml: true},
+      legend: 'none'    
+      };
+
+    chart.draw(dataTable, options);
+  }
+</script>
+
+<div id=\"lmco-agenda-graph\" style=\"height: 800px;\"></div>"
+[3906487531.463494 INFO] connection => #<SB-SYS:FD-STREAM for #<SB-BSD-SOCKETS:INET-SOCKET 127.0.0.1:9090, peer: 127.0.0.1:62961, fd: 492 {1002B0BEB3}> {1002CA3CD3}>
+path => "/favicon.ico"
+vals => ((:CONNECTION . "keep-alive")
+         (:USER-AGENT
+          . "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"))
+response => NIL

@@ -1,0 +1,9 @@
+{
+    "ManufacturingMethod": "Additive",
+    "Orientation": [
+        "y+"
+    ],
+    "Material": "ABSPlastic",
+    "Valid": false,
+    "Reason": "Infeasible Constraints"
+}

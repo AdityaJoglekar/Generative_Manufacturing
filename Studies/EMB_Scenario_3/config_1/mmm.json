@@ -1,0 +1,9 @@
+{
+    "ManufacturingMethod": "Additive",
+    "Orientation": [
+        "y+"
+    ],
+    "Material": "Al6061",
+    "Valid": false,
+    "Reason": "Suppliers Unavailable for Current Configuration"
+}

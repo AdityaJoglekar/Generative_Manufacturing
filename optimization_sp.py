@@ -1191,7 +1191,8 @@ class nnopt:
             plt.savefig(os.path.join(self.directory_path, 'xPhys.png'), transparent=True)
             cutoff = self.cutoff_calc(xPhys)
             plot_iso(self, xPhys, cutoff, save=True)   
-            plt.savefig(os.path.join(self.directory_path, 'xPhys_iso.png'), transparent=True)
+            plt.margins(0,0,0)
+            plt.savefig(os.path.join(self.directory_path, 'xPhys_iso.png'), bbox_inches = 'tight', pad_inches = 0, transparent=True)
             xPhysc = tf.convert_to_tensor(1.0*(xPhys>cutoff),dtype = tf.float32)
         except:
             print('Failed Rendering')
@@ -1263,7 +1264,10 @@ def mass_time_cost_vf_evaluator(opt1, mmm, design_probe_df, rh, mass_con, time_c
     # time_vf_list = []
     # cost_vf_list = []
     num_suppliers = len(rh[0]['SupplierNames'])
-    vf_arr = np.zeros((2,num_suppliers))
+    if mmm["ManufacturingMethod"] == "Additive":
+        vf_arr = -1.0*np.ones((2,num_suppliers))
+    else:
+        vf_arr = np.ones((2,num_suppliers))
     for i in range(num_suppliers):
         df = design_probe_df[design_probe_df['Supplier'] == '{}'.format(rh[0]['SupplierNames'][i])]
         df_list.append(df)
@@ -1304,6 +1308,7 @@ def mass_time_cost_vf_evaluator(opt1, mmm, design_probe_df, rh, mass_con, time_c
             model.fit(x, y)
             # cost_vf_list.append(float(model.predict((np.array(cost_con).reshape(-1,1))).reshape(1)))
             vf_arr[1,i]= (float(model.predict((np.array(cost_con).reshape(-1,1))).reshape(1)))
+    print('vf_arr: ',vf_arr)
     if mmm["ManufacturingMethod"] == "Additive":
         # time_vf = max(time_vf_list)
         # cost_vf = max(cost_vf_list)
@@ -1323,6 +1328,7 @@ def initialize_comp_and_vfs_in_objective(opt1,mmm, mass_con, mass_vf, cost_vf, t
     print('cost_vf')
     _,opt1.cost_con = opt1.time_cost_eval(cost_vf)
     opt1.time_con,_ = opt1.time_cost_eval(time_vf)
+    print('opt1.time_con',opt1.time_con)
     print('opt1.cost_con',opt1.cost_con)
 
     if mmm["ManufacturingMethod"] == "Additive":
@@ -1676,10 +1682,10 @@ def run_opt(request_header_json = 'request_header.json', mmm_json = 'mmm.json',b
             # plot_iso(opt1,xPhys,cutoff,save = True)
             # plot_iso2(xPhys,cutoff,210,120)
             plot_iso2(xPhys,cutoff,210,-120)
-            plot_iso2(xPhys,cutoff,-90,0) 
-            plot_iso2(xPhys,cutoff,150,-120) 
-            xPhysc = tf.convert_to_tensor(1.0*(xPhys>cutoff),dtype = tf.float32) 
             # plt.savefig(os.path.join(opt1.directory_path, 'xPhys_iso_top.png'), transparent=True)
+            # plot_iso2(xPhys,cutoff,-90,0) 
+            # plot_iso2(xPhys,cutoff,150,-120) 
+            xPhysc = tf.convert_to_tensor(1.0*(xPhys>cutoff),dtype = tf.float32) 
             t_total, c_total = opt1.time_cost_eval()
             opt1.fea.penal = 3.0
             comp = opt1.fea.compliance_cp(tf.reshape(xPhysc,[opt1.nely,opt1.nelx,opt1.nelz]))*opt1.fea.E0

@@ -1,9 +1,0 @@
-{
-    "ManufacturingMethod": "EDM",
-    "Orientation": [
-        "y"
-    ],
-    "Material": "Ti6Al4V",
-    "Valid": true,
-    "Reason": "Feasible Configuration"
-}

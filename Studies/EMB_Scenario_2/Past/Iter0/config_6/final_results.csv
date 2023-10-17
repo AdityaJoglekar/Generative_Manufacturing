@@ -1,0 +1,2 @@
+Mass Constraint (g),Cost Constraint ($),Time Constraint (min),Manufacturing Method,Mass (g),Compliance (Nm),Maximum Displacement (mm),Nominal Time (min),Nominal Cost ($),Supplier,Lead Time (min),Cost ($),Material
+500000,175000,89280,EDM y,infeasible,infeasible,infeasible,infeasible,infeasible,infeasible,infeasible,infeasible,Ti6Al4V

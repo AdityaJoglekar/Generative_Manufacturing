@@ -1,9 +1,0 @@
-{
-    "ManufacturingMethod": "Additive",
-    "Orientation": ["y+"],
-    "Material": "ABSplastic",
-    "W_mass": 0.0,
-    "W_compliance": 0.1,
-    "W_cost": 0.9,
-    "W_time": 0.0
-}

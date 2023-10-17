@@ -1,0 +1,1757 @@
+[3906494264.024615 INFO] Legal Time Range:  [Jan  1 1970 00:00:00] -- [Sep 25 73069258125 03:52:31]
+[3906494264.027107 INFO] Loading problem from /Users/hongr/Documents/aditya/Generative_Design_and_Manufacturing2/executable-win/executable-win/data/ray-generate-dataset/json/
+[3906494430.424568 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_3")
+                                             (:*MATERIAL . "Al6061")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1080000.0)
+                                             (:*NET-GRAMS . 1080000.0)
+                                             (:*SCRAP-GRAMS . 0.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 0.075859234)
+                                             (:*VOLUME . 4.0e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 0.0)
+                                               (:*NOMINAL-COST . 0.0))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494433.082816 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_3")
+                                             (:*MATERIAL . "Al6061")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1080000.0)
+                                             (:*NET-GRAMS . 971999.8)
+                                             (:*SCRAP-GRAMS . 108000.164)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 0.09365339)
+                                             (:*VOLUME . 3.5999994e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 223200.48)
+                                               (:*NOMINAL-COST . 14880.032))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494435.892476 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_3")
+                                             (:*MATERIAL . "Al6061")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1080000.0)
+                                             (:*NET-GRAMS . 864000.06)
+                                             (:*SCRAP-GRAMS . 215999.92)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 0.11853006)
+                                             (:*VOLUME . 3.2000003e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 446400.97)
+                                               (:*NOMINAL-COST . 29760.064))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494438.688404 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_3")
+                                             (:*MATERIAL . "Al6061")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1080000.0)
+                                             (:*NET-GRAMS . 755999.94)
+                                             (:*SCRAP-GRAMS . 324000.1)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 0.15481478)
+                                             (:*VOLUME . 2.7999997e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 669601.44)
+                                               (:*NOMINAL-COST . 44640.098))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494441.497218 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_3")
+                                             (:*MATERIAL . "Al6061")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1080000.0)
+                                             (:*NET-GRAMS . 648000.06)
+                                             (:*SCRAP-GRAMS . 431999.97)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 0.21072009)
+                                             (:*VOLUME . 2.4000002e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 892801.94)
+                                               (:*NOMINAL-COST . 59520.13))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494444.292682 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_3")
+                                             (:*MATERIAL . "Al6061")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1080000.0)
+                                             (:*NET-GRAMS . 540000.0)
+                                             (:*SCRAP-GRAMS . 540000.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 0.30343693)
+                                             (:*VOLUME . 2.0e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1116002.4)
+                                               (:*NOMINAL-COST . 74400.164))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494447.103580 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_3")
+                                             (:*MATERIAL . "Al6061")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1080000.0)
+                                             (:*NET-GRAMS . 432000.03)
+                                             (:*SCRAP-GRAMS . 647999.94)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 0.47412023)
+                                             (:*VOLUME . 1.6000002e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1339202.9)
+                                               (:*NOMINAL-COST . 89280.195))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494449.900246 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_3")
+                                             (:*MATERIAL . "Al6061")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1080000.0)
+                                             (:*NET-GRAMS . 324000.03)
+                                             (:*SCRAP-GRAMS . 756000.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 0.84288037)
+                                             (:*VOLUME . 1.2000001e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1562403.4)
+                                               (:*NOMINAL-COST . 104160.23))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494452.691637 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_3")
+                                             (:*MATERIAL . "Al6061")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1080000.0)
+                                             (:*NET-GRAMS . 216000.02)
+                                             (:*SCRAP-GRAMS . 864000.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 1.8964809)
+                                             (:*VOLUME . 8.000001e7)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1785603.9)
+                                               (:*NOMINAL-COST . 119040.26))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494455.512959 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_3")
+                                             (:*MATERIAL . "Al6061")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1080000.0)
+                                             (:*NET-GRAMS . 108000.01)
+                                             (:*SCRAP-GRAMS . 972000.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 7.585924)
+                                             (:*VOLUME . 4.0000004e7)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 2008804.4)
+                                               (:*NOMINAL-COST . 133920.28))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494458.305097 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_3")
+                                             (:*MATERIAL . "Al6061")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1080000.0)
+                                             (:*NET-GRAMS . 54000.004)
+                                             (:*SCRAP-GRAMS . 1026000.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 30.343697)
+                                             (:*VOLUME . 2.0000002e7)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 2120404.5)
+                                               (:*NOMINAL-COST . 141360.3))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494461.095634 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_3")
+                                             (:*MATERIAL . "Al6061")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1080000.0)
+                                             (:*NET-GRAMS . 10800.0)
+                                             (:*SCRAP-GRAMS . 1069200.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 758.5924)
+                                             (:*VOLUME . 4000000.0)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 2209684.8)
+                                               (:*NOMINAL-COST . 147312.31))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494463.891148 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_3")
+                                             (:*MATERIAL . "Al6061")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1080000.0)
+                                             (:*NET-GRAMS . 5400.0)
+                                             (:*SCRAP-GRAMS . 1074600.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 3034.3699)
+                                             (:*VOLUME . 2000000.0)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 2220844.8)
+                                               (:*NOMINAL-COST . 148056.31))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494468.514029 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_6")
+                                             (:*MATERIAL . "Ti6Al4V")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1772000.0)
+                                             (:*NET-GRAMS . 1772000.0)
+                                             (:*SCRAP-GRAMS . 0.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 0.044635653)
+                                             (:*VOLUME . 4.0e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 0.0)
+                                               (:*NOMINAL-COST . 0.0))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494471.287757 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_6")
+                                             (:*MATERIAL . "Ti6Al4V")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1772000.0)
+                                             (:*NET-GRAMS . 1594799.8)
+                                             (:*SCRAP-GRAMS . 177200.27)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 0.05510575)
+                                             (:*VOLUME . 3.5999994e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 223200.48)
+                                               (:*NOMINAL-COST . 14880.032))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494474.083898 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_6")
+                                             (:*MATERIAL . "Ti6Al4V")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1772000.0)
+                                             (:*NET-GRAMS . 1417600.1)
+                                             (:*SCRAP-GRAMS . 354399.88)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 0.06974321)
+                                             (:*VOLUME . 3.2000003e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 446400.97)
+                                               (:*NOMINAL-COST . 29760.064))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494476.896946 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_6")
+                                             (:*MATERIAL . "Ti6Al4V")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1772000.0)
+                                             (:*NET-GRAMS . 1240399.9)
+                                             (:*SCRAP-GRAMS . 531600.1)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 0.09109318)
+                                             (:*VOLUME . 2.7999997e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 669601.44)
+                                               (:*NOMINAL-COST . 44640.098))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494479.678079 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_6")
+                                             (:*MATERIAL . "Ti6Al4V")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1772000.0)
+                                             (:*NET-GRAMS . 1063200.1)
+                                             (:*SCRAP-GRAMS . 708799.94)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 0.12398792)
+                                             (:*VOLUME . 2.4000002e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 892801.94)
+                                               (:*NOMINAL-COST . 59520.13))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494482.462792 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_6")
+                                             (:*MATERIAL . "Ti6Al4V")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1772000.0)
+                                             (:*NET-GRAMS . 886000.0)
+                                             (:*SCRAP-GRAMS . 886000.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 0.17854263)
+                                             (:*VOLUME . 2.0e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1116002.4)
+                                               (:*NOMINAL-COST . 74400.164))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494485.260803 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_6")
+                                             (:*MATERIAL . "Ti6Al4V")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1772000.0)
+                                             (:*NET-GRAMS . 708800.06)
+                                             (:*SCRAP-GRAMS . 1063199.9)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 0.27897283)
+                                             (:*VOLUME . 1.6000002e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1339202.9)
+                                               (:*NOMINAL-COST . 89280.195))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494488.084991 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_6")
+                                             (:*MATERIAL . "Ti6Al4V")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1772000.0)
+                                             (:*NET-GRAMS . 531600.06)
+                                             (:*SCRAP-GRAMS . 1240400.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 0.49595165)
+                                             (:*VOLUME . 1.2000001e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1562403.4)
+                                               (:*NOMINAL-COST . 104160.23))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494490.908099 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_6")
+                                             (:*MATERIAL . "Ti6Al4V")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1772000.0)
+                                             (:*NET-GRAMS . 354400.03)
+                                             (:*SCRAP-GRAMS . 1417600.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 1.1158913)
+                                             (:*VOLUME . 8.000001e7)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1785603.9)
+                                               (:*NOMINAL-COST . 119040.26))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494493.740606 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_6")
+                                             (:*MATERIAL . "Ti6Al4V")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1772000.0)
+                                             (:*NET-GRAMS . 177200.02)
+                                             (:*SCRAP-GRAMS . 1594800.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 4.4635653)
+                                             (:*VOLUME . 4.0000004e7)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 2008804.4)
+                                               (:*NOMINAL-COST . 133920.28))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494496.394150 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_6")
+                                             (:*MATERIAL . "Ti6Al4V")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1772000.0)
+                                             (:*NET-GRAMS . 88600.01)
+                                             (:*SCRAP-GRAMS . 1683400.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 17.854263)
+                                             (:*VOLUME . 2.0000002e7)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 2120404.5)
+                                               (:*NOMINAL-COST . 141360.3))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494499.182415 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_6")
+                                             (:*MATERIAL . "Ti6Al4V")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1772000.0)
+                                             (:*NET-GRAMS . 17720.0)
+                                             (:*SCRAP-GRAMS . 1754280.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 446.35657)
+                                             (:*VOLUME . 4000000.0)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 2209684.8)
+                                               (:*NOMINAL-COST . 147312.31))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494501.965872 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_6")
+                                             (:*MATERIAL . "Ti6Al4V")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 1772000.0)
+                                             (:*NET-GRAMS . 8860.0)
+                                             (:*SCRAP-GRAMS . 1763140.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 1785.4263)
+                                             (:*VOLUME . 2000000.0)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 2220844.8)
+                                               (:*NOMINAL-COST . 148056.31))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494505.260442 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_9")
+                                             (:*MATERIAL . "ABSPlastic")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 424000.0)
+                                             (:*NET-GRAMS . 424000.0)
+                                             (:*SCRAP-GRAMS . 0.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 2.203689)
+                                             (:*VOLUME . 4.0e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 0.0)
+                                               (:*NOMINAL-COST . 0.0))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494508.106974 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_9")
+                                             (:*MATERIAL . "ABSPlastic")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 424000.0)
+                                             (:*NET-GRAMS . 381599.94)
+                                             (:*SCRAP-GRAMS . 42400.066)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 2.720604)
+                                             (:*VOLUME . 3.5999994e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 223200.48)
+                                               (:*NOMINAL-COST . 14880.032))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494510.910918 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_9")
+                                             (:*MATERIAL . "ABSPlastic")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 424000.0)
+                                             (:*NET-GRAMS . 339200.03)
+                                             (:*SCRAP-GRAMS . 84799.97)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 3.4432638)
+                                             (:*VOLUME . 3.2000003e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 446400.97)
+                                               (:*NOMINAL-COST . 29760.064))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494513.734178 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_9")
+                                             (:*MATERIAL . "ABSPlastic")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 424000.0)
+                                             (:*NET-GRAMS . 296799.97)
+                                             (:*SCRAP-GRAMS . 127200.03)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 4.497324)
+                                             (:*VOLUME . 2.7999997e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 669601.44)
+                                               (:*NOMINAL-COST . 44640.098))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494516.544285 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_9")
+                                             (:*MATERIAL . "ABSPlastic")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 424000.0)
+                                             (:*NET-GRAMS . 254400.02)
+                                             (:*SCRAP-GRAMS . 169599.98)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 6.121357)
+                                             (:*VOLUME . 2.4000002e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 892801.94)
+                                               (:*NOMINAL-COST . 59520.13))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494519.344542 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_9")
+                                             (:*MATERIAL . "ABSPlastic")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 424000.0)
+                                             (:*NET-GRAMS . 212000.0)
+                                             (:*SCRAP-GRAMS . 212000.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 8.814755)
+                                             (:*VOLUME . 2.0e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1116002.4)
+                                               (:*NOMINAL-COST . 74400.164))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494522.133645 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_9")
+                                             (:*MATERIAL . "ABSPlastic")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 424000.0)
+                                             (:*NET-GRAMS . 169600.02)
+                                             (:*SCRAP-GRAMS . 254399.98)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 13.773056)
+                                             (:*VOLUME . 1.6000002e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1339202.9)
+                                               (:*NOMINAL-COST . 89280.195))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494524.937425 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_9")
+                                             (:*MATERIAL . "ABSPlastic")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 424000.0)
+                                             (:*NET-GRAMS . 127200.01)
+                                             (:*SCRAP-GRAMS . 296800.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 24.48543)
+                                             (:*VOLUME . 1.2000001e8)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1562403.4)
+                                               (:*NOMINAL-COST . 104160.23))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494527.738080 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_9")
+                                             (:*MATERIAL . "ABSPlastic")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 424000.0)
+                                             (:*NET-GRAMS . 84800.01)
+                                             (:*SCRAP-GRAMS . 339200.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 55.092224)
+                                             (:*VOLUME . 8.000001e7)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1785603.9)
+                                               (:*NOMINAL-COST . 119040.26))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494530.554158 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_9")
+                                             (:*MATERIAL . "ABSPlastic")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 424000.0)
+                                             (:*NET-GRAMS . 42400.004)
+                                             (:*SCRAP-GRAMS . 381600.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 220.3689)
+                                             (:*VOLUME . 4.0000004e7)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 2008804.4)
+                                               (:*NOMINAL-COST . 133920.28))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494533.352414 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_9")
+                                             (:*MATERIAL . "ABSPlastic")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 424000.0)
+                                             (:*NET-GRAMS . 21200.002)
+                                             (:*SCRAP-GRAMS . 402800.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 881.4756)
+                                             (:*VOLUME . 2.0000002e7)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 2120404.5)
+                                               (:*NOMINAL-COST . 141360.3))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494536.157043 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_9")
+                                             (:*MATERIAL . "ABSPlastic")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 424000.0)
+                                             (:*NET-GRAMS . 4240.0)
+                                             (:*SCRAP-GRAMS . 419760.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 22036.893)
+                                             (:*VOLUME . 4000000.0)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 2209684.8)
+                                               (:*NOMINAL-COST . 147312.31))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3906494538.918070 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2015-11-06T00:00:00")
+                                           (:*DUE-DATE . "2020-11-12T11:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B" "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "2-Axis-Subtractive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_3\\config_9")
+                                             (:*MATERIAL . "ABSPlastic")
+                                             (:*MANUFACTURING-METHOD
+                                              . "2-Axis-Subtractive")
+                                             (:*BULK-GRAMS . 424000.0)
+                                             (:*NET-GRAMS . 2120.0)
+                                             (:*SCRAP-GRAMS . 421880.0)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 88147.56)
+                                             (:*VOLUME . 2000000.0)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME . "EDM-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "2Axis-machining-1")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "EDM-Machining")
+                                               (:*NOMINAL-DURATION . 2220844.8)
+                                               (:*NOMINAL-COST . 148056.31))
+                                              ((:*NAME . "Polishing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 300.0)
+                                               (:*NOMINAL-COST . 10.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))

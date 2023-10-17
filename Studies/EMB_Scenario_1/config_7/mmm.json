@@ -1,0 +1,14 @@
+{
+    "ManufacturingMethod": "Subtractive",
+    "Orientation": [
+        "x+",
+        "x-",
+        "y+",
+        "y-",
+        "z+",
+        "z-"
+    ],
+    "Material": "ABSPlastic",
+    "Valid": false,
+    "Reason": "Infeasible Constraints"
+}
