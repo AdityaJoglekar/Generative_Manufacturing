@@ -869,6 +869,11 @@ class nnopt:
 
             #Supply Chain Scheduler Call
             request = json.load(open(os.path.join(self.directory_path,f"ProbePlans/ProbePlans_{guess}.json")))
+            due_time = request["DueDate"]
+            due_time_list = [x for x in due_time]
+            due_time_list[2] = str(int(due_time_list[2]) + 1)
+            due_time_new = ''.join(due_time_list)
+            request["DueDate"]  = due_time_new
             r = requests.post('http://localhost:9090/generate-bid', data=json.dumps(request))
             print(f"Status Code: {r.status_code}, Response: {r.json()}")
             data = r.json()["data"]
@@ -992,6 +997,11 @@ class nnopt:
 
             #Supply Chain Scheduler Call
             request = json.load(open(os.path.join(self.directory_path,f"ProbePlans/ProbePlans_{guess}.json")))
+            due_time = request["DueDate"]
+            due_time_list = [x for x in due_time]
+            due_time_list[2] = str(int(due_time_list[2]) + 1)
+            due_time_new = ''.join(due_time_list)
+            request["DueDate"]  = due_time_new
             r = requests.post('http://localhost:9090/generate-bid', data=json.dumps(request))
             print(f"Status Code: {r.status_code}, Response: {r.json()}")
             data = r.json()["data"]
@@ -1134,6 +1144,11 @@ class nnopt:
 
             #Supply Chain Scheduler Call
             request = json.load(open(os.path.join(self.directory_path,f"ProbePlans/ProbePlans_{guess}.json")))
+            due_time = request["DueDate"]
+            due_time_list = [x for x in due_time]
+            due_time_list[2] = str(int(due_time_list[2]) + 1)
+            due_time_new = ''.join(due_time_list)
+            request["DueDate"]  = due_time_new
             r = requests.post('http://localhost:9090/generate-bid', data=json.dumps(request))
             print(f"Status Code: {r.status_code}, Response: {r.json()}")
             data = r.json()["data"]
@@ -1607,6 +1622,11 @@ def run_opt(request_header_json = 'request_header.json', mmm_json = 'mmm.json',b
             #Supply Chain Scheduler Call
             request = json.load(open(os.path.join(directory_path,"PartProcessPlans.json")))
             r = requests.post('http://localhost:9090/generate-bid', data=json.dumps(request))
+            due_time = request["DueDate"]
+            due_time_list = [x for x in due_time]
+            due_time_list[2] = str(int(due_time_list[2]) + 1)
+            due_time_new = ''.join(due_time_list)
+            request["DueDate"]  = due_time_new
             print(f"Status Code: {r.status_code}, Response: {r.json()}")
             data = r.json()["data"]
             if data is not None:
@@ -1669,38 +1689,41 @@ def run_opt(request_header_json = 'request_header.json', mmm_json = 'mmm.json',b
                 print('opt1.c_0',opt1.c_0)
 
             xPhys = tf.reshape( opt1.rbnn(opt1.dlX) ,[opt1.nely,opt1.nelx,opt1.nelz] ).numpy()
-            opt1.display_result_summary()
-            # opt1.save_result()
+            # opt1.display_result_summary()
+            # # opt1.save_result()
 
-            print('vf:',tf.reduce_mean(xPhys))
-            print('0.5 vf:',tf.reduce_mean(1.0*(xPhys>0.5)))
-            print('0.2 mass:',tf.reduce_sum(1.0*(xPhys>0.2)) *opt1.lele**3 * opt1.m_density)
+            # print('vf:',tf.reduce_mean(xPhys))
+            # print('0.5 vf:',tf.reduce_mean(1.0*(xPhys>0.5)))
+            # print('0.2 mass:',tf.reduce_sum(1.0*(xPhys>0.2)) *opt1.lele**3 * opt1.m_density)
 
             cutoff = opt1.cutoff_calc(xPhys)
             print('cutoff',cutoff)
             print('cutoff mass: ',tf.reduce_sum(1.0*(xPhys>cutoff)) *opt1.lele**3 * opt1.m_density)
+            plot_iso2(xPhys,cutoff,-90,0, save = True)
+            plt.margins(0,0,0)
+            plt.savefig(os.path.join(opt1.directory_path, 'xPhys_iso_top.png'), bbox_inches = 'tight', pad_inches = 0, transparent=True)
             # plot_iso(opt1,xPhys,cutoff,save = True)
             # plot_iso2(xPhys,cutoff,210,120)
-            plot_iso2(xPhys,cutoff,210,-120)
+            # plot_iso2(xPhys,cutoff,210,-120)
             # plt.savefig(os.path.join(opt1.directory_path, 'xPhys_iso_top.png'), transparent=True)
             # plot_iso2(xPhys,cutoff,-90,0) 
             # plot_iso2(xPhys,cutoff,150,-120) 
-            xPhysc = tf.convert_to_tensor(1.0*(xPhys>cutoff),dtype = tf.float32) 
-            t_total, c_total = opt1.time_cost_eval()
-            opt1.fea.penal = 3.0
-            comp = opt1.fea.compliance_cp(tf.reshape(xPhysc,[opt1.nely,opt1.nelx,opt1.nelz]))*opt1.fea.E0
-            max_disp_val = float(opt1.fea.max_disp(tf.reshape(xPhysc,[opt1.nely,opt1.nelx,opt1.nelz]))*1000)
-            comp2 = opt1.fea.compliance_cp(tf.reshape(xPhys,[opt1.nely,opt1.nelx,opt1.nelz]))*opt1.fea.E0
-            mass = tf.reduce_sum(xPhys) *opt1.lele**3 * opt1.m_density
+            # xPhysc = tf.convert_to_tensor(1.0*(xPhys>cutoff),dtype = tf.float32) 
+            # t_total, c_total = opt1.time_cost_eval()
+            # opt1.fea.penal = 3.0
+            # comp = opt1.fea.compliance_cp(tf.reshape(xPhysc,[opt1.nely,opt1.nelx,opt1.nelz]))*opt1.fea.E0
+            # max_disp_val = float(opt1.fea.max_disp(tf.reshape(xPhysc,[opt1.nely,opt1.nelx,opt1.nelz]))*1000)
+            # comp2 = opt1.fea.compliance_cp(tf.reshape(xPhys,[opt1.nely,opt1.nelx,opt1.nelz]))*opt1.fea.E0
+            # mass = tf.reduce_sum(xPhys) *opt1.lele**3 * opt1.m_density
 
-            print("## Result Summary")
-            print("VF: ",tf.reduce_mean(xPhys))
-            print("Mass: {:.6f} [kg]".format(mass))
-            print("Compliance: {:2e}".format(comp))
-            print("Time: {:.2f} [min]".format(t_total))
-            print("Cost: {:.2f} [$]".format(c_total))
-            print("Max Disp: {} [mm]".format(max_disp_val))
-            print('comp2',comp2)
+            # print("## Result Summary")
+            # print("VF: ",tf.reduce_mean(xPhys))
+            # print("Mass: {:.6f} [kg]".format(mass))
+            # print("Compliance: {:2e}".format(comp))
+            # print("Time: {:.2f} [min]".format(t_total))
+            # print("Cost: {:.2f} [$]".format(c_total))
+            # print("Max Disp: {} [mm]".format(max_disp_val))
+            # print('comp2',comp2)
 
             # opt1.display_result_summary()
             # opt1.save_result()
