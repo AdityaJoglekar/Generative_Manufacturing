@@ -2,8 +2,8 @@
     "Name": "Request-A",
     "Part": "Bracket",
     "Quantity": 1,
-    "EarliestStartDate": "2023-11-06T00:00:00",
-    "DueDate": "2028-11-12T23:59:59",
+    "EarliestStartDate": "2015-11-06T00:00:00",
+    "DueDate": "2020-11-12T11:59:59",
     "SupplierNames": [
         "Supplier-A",
         "Supplier-B",
@@ -22,7 +22,7 @@
             "Width": 1000.0,
             "Height": 400.0,
             "Depth": 1000.0,
-            "Compliance": 0.731511116027832,
+            "Compliance": 0.6772661805152893,
             "Volume": 27756212.234497078,
             "Task_Sequence": [
                 {

@@ -787,10 +787,10 @@ class nnopt:
             c = self.comp_guess
         else:
             xPhys = self.rbnn(self.dlX).numpy().reshape([self.nely,self.nelx,self.nelz])
-            cutoff = self.cutoff_calc(xPhys)
-            xPhysc = tf.convert_to_tensor(1.0*(xPhys>cutoff),dtype = tf.float32)
-            self.fea.penal = 3.0
-            c = float((self.fea.compliance_cp(tf.cast(tf.reshape(xPhysc,[self.nely,self.nelx,self.nelz]),dtype=tf.float32))*self.fea.E0).numpy())
+            # cutoff = self.cutoff_calc(xPhys)
+            # xPhysc = tf.convert_to_tensor(1.0*(xPhys>cutoff),dtype = tf.float32)
+            self.fea.penal = 1.0
+            c = float((self.fea.compliance_cp(tf.cast(tf.reshape(xPhys,[self.nely,self.nelx,self.nelz]),dtype=tf.float32))*self.fea.E0).numpy())
         sv = tf.ones([self.nely,self.nelx,self.nelz],dtype=tf.float32)
         xPhysf = (xPhys>0.4).astype(float)*0.5
         opt_num = 0
@@ -928,10 +928,10 @@ class nnopt:
 
         else:
             xPhys = self.rbnn(self.dlX).numpy().reshape([self.nely,self.nelx,self.nelz])
-            cutoff = self.cutoff_calc(xPhys)
-            xPhysc = tf.convert_to_tensor(1.0*(xPhys>cutoff),dtype = tf.float32)
-            self.fea.penal = 3.0
-            c = float((self.fea.compliance_cp(tf.cast(tf.reshape(xPhysc,[self.nely,self.nelx,self.nelz]),dtype=tf.float32))*self.fea.E0).numpy())
+            # cutoff = self.cutoff_calc(xPhys)
+            # xPhysc = tf.convert_to_tensor(1.0*(xPhys>cutoff),dtype = tf.float32)
+            self.fea.penal = 1.0
+            c = float((self.fea.compliance_cp(tf.cast(tf.reshape(xPhys,[self.nely,self.nelx,self.nelz]),dtype=tf.float32))*self.fea.E0).numpy())
 
         xPhysf = (xPhys>0.4).astype(float)*0.5
         if guess:
@@ -1058,10 +1058,10 @@ class nnopt:
             c = self.comp_guess
         else:
             xPhys = self.rbnn(self.dlX).numpy().reshape([self.nely,self.nelx,self.nelz])
-            cutoff = self.cutoff_calc(xPhys)
-            xPhysc = tf.convert_to_tensor(1.0*(xPhys>cutoff),dtype = tf.float32)
-            self.fea.penal = 3.0
-            c = float((self.fea.compliance_cp(tf.cast(tf.reshape(xPhysc,[self.nely,self.nelx,self.nelz]),dtype=tf.float32))*self.fea.E0).numpy())
+            # cutoff = self.cutoff_calc(xPhys)
+            # xPhysc = tf.convert_to_tensor(1.0*(xPhys>cutoff),dtype = tf.float32)
+            self.fea.penal = 1.0
+            c = float((self.fea.compliance_cp(tf.cast(tf.reshape(xPhys,[self.nely,self.nelx,self.nelz]),dtype=tf.float32))*self.fea.E0).numpy())
         xPhysf = (xPhys>0.4).astype(float)*0.5
 
         if guess:
@@ -1213,8 +1213,8 @@ class nnopt:
             print('Failed Rendering')
 
         # print('penalty: ',self.fea.penal)
-        comp = float((self.fea.compliance_cp(tf.cast(tf.reshape(xPhysc,[self.nely,self.nelx,self.nelz]),dtype=tf.float32))*self.fea.E0).numpy())
-        max_d = float(self.fea.max_disp(tf.reshape(xPhysc,[self.nely,self.nelx,self.nelz]))*1000)
+        comp = float((self.fea.compliance_cp(tf.cast(tf.reshape(xPhys,[self.nely,self.nelx,self.nelz]),dtype=tf.float32))*self.fea.E0).numpy())
+        max_d = float(self.fea.max_disp(tf.reshape(xPhys,[self.nely,self.nelx,self.nelz]))*1000)
         mass = tf.reduce_sum(xPhys) *self.lele**3 * self.m_density
         self.data_dict['Mass (g)'].append(mass.numpy()*1000)
         self.data_dict['Compliance (Nm)'].append(comp)
@@ -1603,7 +1603,7 @@ def run_opt(request_header_json = 'request_header.json', mmm_json = 'mmm.json',b
                 opt1.fea.E0 = mat_lib[mmm["Material"]]["E0"]
                 opt1.fea.KE =  lk_H8_np(nu)*opt1.lele
                 opt1.init_bc(il, jl, kl, il_F, jl_F,  kl_F, iif, jf, kf)
-                opt1.fea.penal = 3.0
+                opt1.fea.penal = 1.0
                 if opt1.init_vf<0.2:
                     xPhys_c0 = tf.ones([opt1.nely, opt1.nelx, opt1.nelz])*0.2
                     opt1.c_0 = opt1.fea.compliance_cp(xPhys_c0)
@@ -1679,7 +1679,7 @@ def run_opt(request_header_json = 'request_header.json', mmm_json = 'mmm.json',b
             opt1.fea.E0 = mat_lib[mmm["Material"]]["E0"]
             opt1.fea.KE =  lk_H8_np(nu)*opt1.lele
             opt1.init_bc(il, jl, kl, il_F, jl_F,  kl_F, iif, jf, kf)
-            opt1.fea.penal = 3.0
+            opt1.fea.penal = 1.0
             if opt1.init_vf<0.2:
                 xPhys_c0 = tf.ones([opt1.nely, opt1.nelx, opt1.nelz])*0.2
                 opt1.c_0 = opt1.fea.compliance_cp(xPhys_c0)
@@ -1692,9 +1692,9 @@ def run_opt(request_header_json = 'request_header.json', mmm_json = 'mmm.json',b
             opt1.display_result_summary()
             # opt1.save_result()
 
-            # print('vf:',tf.reduce_mean(xPhys))
-            # print('0.5 vf:',tf.reduce_mean(1.0*(xPhys>0.5)))
-            # print('0.2 mass:',tf.reduce_sum(1.0*(xPhys>0.2)) *opt1.lele**3 * opt1.m_density)
+            print('vf:',tf.reduce_mean(xPhys))
+            print('0.5 vf:',tf.reduce_mean(1.0*(xPhys>0.5)))
+            print('0.2 mass:',tf.reduce_sum(1.0*(xPhys>0.2)) *opt1.lele**3 * opt1.m_density)
 
             cutoff = opt1.cutoff_calc(xPhys)
             print('cutoff',cutoff)
@@ -1708,22 +1708,29 @@ def run_opt(request_header_json = 'request_header.json', mmm_json = 'mmm.json',b
             # plt.savefig(os.path.join(opt1.directory_path, 'xPhys_iso_top.png'), transparent=True)
             # plot_iso2(xPhys,cutoff,-90,0) 
             # plot_iso2(xPhys,cutoff,150,-120) 
-            # xPhysc = tf.convert_to_tensor(1.0*(xPhys>cutoff),dtype = tf.float32) 
-            # t_total, c_total = opt1.time_cost_eval()
-            # opt1.fea.penal = 3.0
-            # comp = opt1.fea.compliance_cp(tf.reshape(xPhysc,[opt1.nely,opt1.nelx,opt1.nelz]))*opt1.fea.E0
-            # max_disp_val = float(opt1.fea.max_disp(tf.reshape(xPhysc,[opt1.nely,opt1.nelx,opt1.nelz]))*1000)
+            xPhysc = tf.convert_to_tensor(1.0*(xPhys>cutoff),dtype = tf.float32) 
+            t_total, c_total = opt1.time_cost_eval()
+            opt1.fea.penal = 1.0
+            comp = opt1.fea.compliance_cp(tf.reshape(xPhys,[opt1.nely,opt1.nelx,opt1.nelz]))*opt1.fea.E0
+            max_disp_val = float(opt1.fea.max_disp(tf.reshape(xPhys,[opt1.nely,opt1.nelx,opt1.nelz]))*1000)
             # comp2 = opt1.fea.compliance_cp(tf.reshape(xPhys,[opt1.nely,opt1.nelx,opt1.nelz]))*opt1.fea.E0
-            # mass = tf.reduce_sum(xPhys) *opt1.lele**3 * opt1.m_density
+            # max_disp_val2 = float(opt1.fea.max_disp(tf.reshape(xPhys,[opt1.nely,opt1.nelx,opt1.nelz]))*1000)
+            mass = tf.reduce_sum(xPhys) *opt1.lele**3 * opt1.m_density
 
-            # print("## Result Summary")
-            # print("VF: ",tf.reduce_mean(xPhys))
-            # print("Mass: {:.6f} [kg]".format(mass))
-            # print("Compliance: {:2e}".format(comp))
-            # print("Time: {:.2f} [min]".format(t_total))
-            # print("Cost: {:.2f} [$]".format(c_total))
-            # print("Max Disp: {} [mm]".format(max_disp_val))
+            final_df = pd.read_csv(os.path.join(opt1.directory_path,'final_results.csv'))
+            final_df['Compliance (Nm)'] = float(comp)
+            final_df['Maximum Displacement (mm)'] = max_disp_val
+            final_df.to_csv(os.path.join(directory_path, 'final_results.csv'),index = False)
+
+            print("## Result Summary")
+            print("VF: ",tf.reduce_mean(xPhys))
+            print("Mass: {:.6f} [kg]".format(mass))
+            print("Compliance: {:2e}".format(comp))
+            print("Time: {:.2f} [min]".format(t_total))
+            print("Cost: {:.2f} [$]".format(c_total))
+            print("Max Disp: {} [mm]".format(max_disp_val))
             # print('comp2',comp2)
+            # print("Max Disp2: {} [mm]".format(max_disp_val2))
 
             # opt1.display_result_summary()
             # opt1.save_result()

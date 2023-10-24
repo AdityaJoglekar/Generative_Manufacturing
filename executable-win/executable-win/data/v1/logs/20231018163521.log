@@ -56435,3 +56435,141 @@
                                                 . "Buffing")
                                                (:*NOMINAL-DURATION . 1200.0)
                                                (:*NOMINAL-COST . 20.0))))))
+[3907167110.981350 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2023-11-06T00:00:00")
+                                           (:*DUE-DATE . "2028-11-12T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "SLM-Additive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_2_supplier_test\\Past/Iter0/config_1")
+                                             (:*MATERIAL . "Al6061powder")
+                                             (:*MANUFACTURING-METHOD
+                                              . "SLM-Additive")
+                                             (:*BULK-GRAMS . 54584.543)
+                                             (:*NET-GRAMS . 53748.926)
+                                             (:*SCRAP-GRAMS . 835.61774)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 1.11325)
+                                             (:*VOLUME . 1.990701e7)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "Additive-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "SLM-printing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 3275072.3)
+                                               (:*NOMINAL-COST . 109169.08))
+                                              ((:*NAME . "Support-removal")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3907168317.533250 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2023-11-06T00:00:00")
+                                           (:*DUE-DATE . "2028-11-12T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-B")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "SLM-Additive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_2_supplier_test\\Past/Iter0/config_8")
+                                             (:*MATERIAL . "ABSPlasticpowder")
+                                             (:*MANUFACTURING-METHOD
+                                              . "SLM-Additive")
+                                             (:*BULK-GRAMS . 46181.824)
+                                             (:*NET-GRAMS . 44936.92)
+                                             (:*SCRAP-GRAMS . 1244.9055)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 13.292548)
+                                             (:*VOLUME . 4.239332e7)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "Additive-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "SLM-printing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 2770909.3)
+                                               (:*NOMINAL-COST . 92363.64))
+                                              ((:*NAME . "Support-removal")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
+[3907169088.751809 INFO] Generating Bid:  ((:*NAME . "Request-A")
+                                           (:*PART . "Bracket")
+                                           (:*QUANTITY . 1)
+                                           (:*EARLIEST-START-DATE
+                                            . "2023-11-06T00:00:00")
+                                           (:*DUE-DATE . "2028-11-12T23:59:59")
+                                           (:*SUPPLIER-NAMES "Supplier-A"
+                                            "Supplier-C")
+                                           (:*PROCESS-PLANS
+                                            ((:*NAME . "SLM-Additive-1")
+                                             (:*PART . "Bracket")
+                                             (:*LINK
+                                              . "Studies/EMB_Scenario_2_supplier_test\\Past/Iter0/config_1")
+                                             (:*MATERIAL . "Al6061powder")
+                                             (:*MANUFACTURING-METHOD
+                                              . "SLM-Additive")
+                                             (:*BULK-GRAMS . 54594.742)
+                                             (:*NET-GRAMS . 53606.902)
+                                             (:*SCRAP-GRAMS . 987.8382)
+                                             (:*WIDTH . 1000.0)
+                                             (:*HEIGHT . 400.0)
+                                             (:*DEPTH . 1000.0)
+                                             (:*COMPLIANCE . 1.1325978)
+                                             (:*VOLUME . 1.9854408e7)
+                                             (:*TASK--*SEQUENCE
+                                              ((:*NAME
+                                                . "Additive-machine-setup")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 1800.0)
+                                               (:*NOMINAL-COST . 60.0))
+                                              ((:*NAME . "SLM-printing")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "SLM-Metal-Printing")
+                                               (:*NOMINAL-DURATION . 3275684.3)
+                                               (:*NOMINAL-COST . 109189.48))
+                                              ((:*NAME . "Support-removal")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))
+                                              ((:*NAME . "Inspection")
+                                               (:*REQUIRED-CAPABILITY
+                                                . "Buffing")
+                                               (:*NOMINAL-DURATION . 1200.0)
+                                               (:*NOMINAL-COST . 20.0))))))
