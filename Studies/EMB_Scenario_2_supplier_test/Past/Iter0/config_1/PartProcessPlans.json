@@ -6,7 +6,6 @@
     "DueDate": "2028-11-12T23:59:59",
     "SupplierNames": [
         "Supplier-A",
-        "Supplier-B",
         "Supplier-C"
     ],
     "ProcessPlans": [
@@ -16,14 +15,14 @@
             "Link": "Studies/EMB_Scenario_2_supplier_test\\Past/Iter0/config_1",
             "Material": "Al6061powder",
             "ManufacturingMethod": "SLM-Additive",
-            "BulkGrams": 54594.7421875,
-            "NetGrams": 53606.90234375,
-            "ScrapGrams": 987.8381958007812,
+            "BulkGrams": 54217.25,
+            "NetGrams": 53293.27734375,
+            "ScrapGrams": 923.9719848632812,
             "Width": 1000.0,
             "Height": 400.0,
             "Depth": 1000.0,
-            "Compliance": 1.011987566947937,
-            "Volume": 19854408.26416016,
+            "Compliance": 1.0171388387680054,
+            "Volume": 19738250.73242188,
             "Task_Sequence": [
                 {
                     "Name": "Additive-machine-setup",
@@ -34,8 +33,8 @@
                 {
                     "Name": "SLM-printing",
                     "RequiredCapability": "SLM-Metal-Printing",
-                    "NominalDuration": 3275684.25,
-                    "NominalCost": 109189.4765625
+                    "NominalDuration": 3253035.0,
+                    "NominalCost": 108434.5
                 },
                 {
                     "Name": "Support-removal",

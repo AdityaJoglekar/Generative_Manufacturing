@@ -734,7 +734,7 @@ class nnopt:
     def display_result_summary(self):
         xPhys = tf.reshape( self.rbnn(self.dlX) ,[self.nely,self.nelx,self.nelz] ).numpy()
         t_total, c_total = self.time_cost_eval()
-        self.fea.penal = 3.0
+        self.fea.penal = 1.0
         comp = float((self.fea.compliance_cp(tf.cast(tf.reshape(xPhys,[self.nely,self.nelx,self.nelz]),dtype=tf.float32))*self.fea.E0).numpy())
         # max_d = float(self.fea.max_disp(tf.reshape(xPhys,[self.nely,self.nelx,self.nelz]))*1000)
         mass = tf.reduce_sum(xPhys) *self.lele**3 * self.m_density
@@ -1690,7 +1690,7 @@ def run_opt(request_header_json = 'request_header.json', mmm_json = 'mmm.json',b
 
             xPhys = tf.reshape( opt1.rbnn(opt1.dlX) ,[opt1.nely,opt1.nelx,opt1.nelz] ).numpy()
             opt1.display_result_summary()
-            # opt1.save_result()
+            opt1.save_result()
 
             print('vf:',tf.reduce_mean(xPhys))
             print('0.5 vf:',tf.reduce_mean(1.0*(xPhys>0.5)))
