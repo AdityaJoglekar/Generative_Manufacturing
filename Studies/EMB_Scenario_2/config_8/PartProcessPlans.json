@@ -16,14 +16,14 @@
             "Link": "Studies/EMB_Scenario_2\\config_8",
             "Material": "ABSPlasticpowder",
             "ManufacturingMethod": "SLM-Additive",
-            "BulkGrams": 31894.416015625,
-            "NetGrams": 30701.447265625,
-            "ScrapGrams": 1192.970947265625,
+            "BulkGrams": 37353.796875,
+            "NetGrams": 36684.3359375,
+            "ScrapGrams": 669.4605102539062,
             "Width": 1000.0,
             "Height": 400.0,
             "Depth": 1000.0,
-            "Compliance": 21.05728530883789,
-            "Volume": 28963628.768920906,
+            "Compliance": 17.30519676208496,
+            "Volume": 34607864.37988282,
             "Task_Sequence": [
                 {
                     "Name": "Additive-machine-setup",
@@ -34,8 +34,8 @@
                 {
                     "Name": "SLM-printing",
                     "RequiredCapability": "SLM-Metal-Printing",
-                    "NominalDuration": 1913665.0,
-                    "NominalCost": 63788.83203125
+                    "NominalDuration": 2241227.75,
+                    "NominalCost": 74707.59375
                 },
                 {
                     "Name": "Support-removal",

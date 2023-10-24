@@ -1,0 +1,3 @@
+Mass Constraint (g),Cost Constraint ($),Time Constraint (min),Manufacturing Method,Mass (g),Compliance (Nm),Maximum Displacement (mm),Nominal Time (min),Nominal Cost ($),Material,Supplier,Lead Time (min),Cost ($)
+200.0,30000,28800,Additive y+,98.61783683300018,2.445859909057617,2.895413779362138,169.95518,300.1103,ABSPlastic,Supplier-B,16995.53,30019.99
+200.0,30000,28800,Additive y+,98.61783683300018,2.445859909057617,2.895413779362138,169.95518,300.1103,ABSPlastic,Supplier-C,16995.53,45029.99

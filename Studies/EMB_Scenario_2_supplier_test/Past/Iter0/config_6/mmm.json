@@ -1,0 +1,9 @@
+{
+    "ManufacturingMethod": "EDM",
+    "Orientation": [
+        "y"
+    ],
+    "Material": "Ti6Al4V",
+    "Valid": false,
+    "Reason": "Suppliers Unavailable for Current Configuration"
+}

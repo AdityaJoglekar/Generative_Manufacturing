@@ -1,0 +1,55 @@
+{
+    "Name": "Request-A",
+    "Part": "Bracket",
+    "Quantity": 100,
+    "EarliestStartDate": "2015-11-06T00:00:00",
+    "DueDate": "2020-11-12T11:59:59",
+    "SupplierNames": [
+        "Supplier-A",
+        "Supplier-B",
+        "Supplier-C"
+    ],
+    "ProcessPlans": [
+        {
+            "Name": "SLM-Additive-1",
+            "Part": "Bracket",
+            "Link": "Studies/CB_Scenario_1\\Past/Iter1/config_8",
+            "Material": "ABSPlasticpowder",
+            "ManufacturingMethod": "SLM-Additive",
+            "BulkGrams": 268.32073974609375,
+            "NetGrams": 260.50555419921875,
+            "ScrapGrams": 7.815167427062988,
+            "Width": 160.0,
+            "Height": 80.0,
+            "Depth": 32.0,
+            "Compliance": 2.5509517192840576,
+            "Volume": 245759.96875,
+            "Task_Sequence": [
+                {
+                    "Name": "Additive-machine-setup",
+                    "RequiredCapability": "SLM-Metal-Printing",
+                    "NominalDuration": 1800.0,
+                    "NominalCost": 60.0
+                },
+                {
+                    "Name": "SLM-printing",
+                    "RequiredCapability": "SLM-Metal-Printing",
+                    "NominalDuration": 16099.244140625,
+                    "NominalCost": 536.6414794921875
+                },
+                {
+                    "Name": "Support-removal",
+                    "RequiredCapability": "Buffing",
+                    "NominalDuration": 1200.0,
+                    "NominalCost": 20.0
+                },
+                {
+                    "Name": "Inspection",
+                    "RequiredCapability": "Buffing",
+                    "NominalDuration": 1200.0,
+                    "NominalCost": 20.0
+                }
+            ]
+        }
+    ]
+}

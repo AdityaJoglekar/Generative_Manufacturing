@@ -1,2 +1,2 @@
 Mass Constraint (g),Cost Constraint ($),Time Constraint (min),Manufacturing Method,Mass (g),Compliance (Nm),Maximum Displacement (mm),Nominal Time (min),Nominal Cost ($),Supplier,Lead Time (min),Cost ($),Material
-40000,100000,44640,Subtractive x+,infeasible,infeasible,infeasible,infeasible,infeasible,infeasible,infeasible,infeasible,Ti6Al4V
+40000,75000,89280,Subtractive x+,infeasible,infeasible,infeasible,infeasible,infeasible,infeasible,infeasible,infeasible,Ti6Al4V

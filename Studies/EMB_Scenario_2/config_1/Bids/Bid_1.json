@@ -3,8 +3,8 @@
     "suppliers": "Supplier-C",
     "order": "Request-A",
     "processPlan": "SLM-Additive-1",
-    "leadTime": 3099978,
+    "leadTime": 3244188,
     "earliestStartTime": "2023-11-09T12:00:00+0000",
-    "earliestFinishTime": "2023-12-11T21:06:18+0000",
-    "cost": 108000.5
+    "earliestFinishTime": "2023-12-13T13:09:48+0000",
+    "cost": 115878.47
 }

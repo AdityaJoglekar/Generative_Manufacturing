@@ -1,0 +1,10 @@
+{
+    "id": 1,
+    "suppliers": "Supplier-B",
+    "order": "Request-A",
+    "processPlan": "SLM-Additive-1",
+    "leadTime": 3341400,
+    "earliestStartTime": "2015-11-06T00:00:00+0000",
+    "earliestFinishTime": "2015-12-14T16:10:00+0000",
+    "cost": 121629.7
+}

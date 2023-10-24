@@ -1381,7 +1381,7 @@ def run_opt(request_header_json = 'request_header.json', mmm_json = 'mmm.json',b
     machine =  json.load(open(machine_json))
 
     constraints = json.load(open(constraints_json))
-    mass_con = int(constraints["Mass_constraint"][0])
+    mass_con = constraints["Mass_constraint"][0]
     cost_con = int(constraints["Cost_constraint"][0])
     time_con = int(constraints["Time_constraint"][0])
 
@@ -1689,8 +1689,8 @@ def run_opt(request_header_json = 'request_header.json', mmm_json = 'mmm.json',b
                 print('opt1.c_0',opt1.c_0)
 
             xPhys = tf.reshape( opt1.rbnn(opt1.dlX) ,[opt1.nely,opt1.nelx,opt1.nelz] ).numpy()
-            # opt1.display_result_summary()
-            # # opt1.save_result()
+            opt1.display_result_summary()
+            # opt1.save_result()
 
             # print('vf:',tf.reduce_mean(xPhys))
             # print('0.5 vf:',tf.reduce_mean(1.0*(xPhys>0.5)))

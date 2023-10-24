@@ -1,0 +1,14 @@
+{
+    "ManufacturingMethod": "Subtractive",
+    "Orientation": [
+        "x+",
+        "x-",
+        "y+",
+        "y-",
+        "z+",
+        "z-"
+    ],
+    "Material": "Ti6Al4V",
+    "Valid": false,
+    "Reason": "Suppliers Unavailable for Current Configuration"
+}
