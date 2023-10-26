@@ -719,7 +719,7 @@ class nnopt:
             self.total_epoch = self.total_epoch + 1
             self.train_step(self.total_epoch)
             print("Epoch: ", self.total_epoch)    
-            if epoch%50 == 49 and epoch>20:
+            if epoch%50 == 49 and epoch>20 and self.plots:
                 IPython.display.clear_output(wait=True)
                 plot_params(self)
                 xPhys = tf.reshape( self.rbnn(self.dlX) ,[self.nely,self.nelx,self.nelz] ).numpy()
@@ -738,10 +738,11 @@ class nnopt:
         comp = float((self.fea.compliance_cp(tf.cast(tf.reshape(xPhys,[self.nely,self.nelx,self.nelz]),dtype=tf.float32))*self.fea.E0).numpy())
         # max_d = float(self.fea.max_disp(tf.reshape(xPhys,[self.nely,self.nelx,self.nelz]))*1000)
         mass = tf.reduce_sum(xPhys) *self.lele**3 * self.m_density
-        try:
-            plot_iso(self,xPhys,0.2)
-        except:
-            print('Failed Rendering')
+        if self.plots:
+            try:
+                plot_iso(self,xPhys,0.2)
+            except:
+                print('Failed Rendering')
         print("## Result Summary")
         print("VF: ",tf.reduce_mean(xPhys))
         print("Mass: {:.6f} [kg]".format(mass))
@@ -1371,7 +1372,7 @@ def initialize_comp_and_vfs_in_objective(opt1,mmm, mass_con, mass_vf, cost_vf, t
         
 
 def run_opt(request_header_json = 'request_header.json', mmm_json = 'mmm.json',bc_json = 'bc.json',mat_lib_json = 'mat_lib.json',
-            machine_json = 'machine.json', constraints_json = 'constraints.json', probe=False, test = False):
+            machine_json = 'machine.json', constraints_json = 'constraints.json', probe=False, test = False, plots = False):
 
     directory_path = os.path.dirname(mmm_json)
     mmm = json.load(open(mmm_json))
@@ -1423,6 +1424,7 @@ def run_opt(request_header_json = 'request_header.json', mmm_json = 'mmm.json',b
     opt1.request_header_json = request_header_json
     opt1.mat_lib_file = mat_lib
     opt1.mmm_file = mmm
+    opt1.plots = plots
 
     opt1.data_dict = collections.defaultdict(list)
     opt1.data_dict['Mass Constraint (g)'].append(mass_con*1000)
@@ -1690,7 +1692,7 @@ def run_opt(request_header_json = 'request_header.json', mmm_json = 'mmm.json',b
 
             xPhys = tf.reshape( opt1.rbnn(opt1.dlX) ,[opt1.nely,opt1.nelx,opt1.nelz] ).numpy()
             opt1.display_result_summary()
-            opt1.save_result()
+            # opt1.save_result()
 
             print('vf:',tf.reduce_mean(xPhys))
             print('0.5 vf:',tf.reduce_mean(1.0*(xPhys>0.5)))
@@ -1717,10 +1719,10 @@ def run_opt(request_header_json = 'request_header.json', mmm_json = 'mmm.json',b
             # max_disp_val2 = float(opt1.fea.max_disp(tf.reshape(xPhys,[opt1.nely,opt1.nelx,opt1.nelz]))*1000)
             mass = tf.reduce_sum(xPhys) *opt1.lele**3 * opt1.m_density
 
-            final_df = pd.read_csv(os.path.join(opt1.directory_path,'final_results.csv'))
-            final_df['Compliance (Nm)'] = float(comp)
-            final_df['Maximum Displacement (mm)'] = max_disp_val
-            final_df.to_csv(os.path.join(directory_path, 'final_results.csv'),index = False)
+            # final_df = pd.read_csv(os.path.join(opt1.directory_path,'final_results.csv'))
+            # final_df['Compliance (Nm)'] = float(comp)
+            # final_df['Maximum Displacement (mm)'] = max_disp_val
+            # final_df.to_csv(os.path.join(directory_path, 'final_results.csv'),index = False)
 
             print("## Result Summary")
             print("VF: ",tf.reduce_mean(xPhys))
