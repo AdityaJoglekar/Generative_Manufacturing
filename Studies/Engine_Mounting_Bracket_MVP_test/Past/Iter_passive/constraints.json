@@ -1,7 +1,0 @@
-{
-        "Mass_constraint":[500],
-        "Time_constraint":[89280],
-        "Cost_constraint":[175000],
-        "Materials":["Al6061","Ti6Al4V","ABSplastic"],
-        "Methods":["Subtractive","Additive","EDM"]
-}

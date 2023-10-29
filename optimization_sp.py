@@ -1738,7 +1738,7 @@ def run_opt(request_header_json = 'request_header.json', mmm_json = 'mmm.json',b
             # opt1.save_result()
         
 #example: run_batch_opt("Studies/bracket/request_header.json","Studies/bracket","Studies/bracket/bc.json","Resources/mat_lib.json",'Resources/machine.json')
-def run_batch_opt(request_header_json, study_folder,bc_json,mat_lib_json,machine_json,run_all=False,probe=False):
+def run_batch_opt(request_header_json, study_folder,bc_json,mat_lib_json,machine_json,constraints_json,run_all=False,probe=False):
     for folder_name in os.listdir(study_folder):
         config_path = os.path.join(study_folder, folder_name)
         if os.path.isdir(config_path) and folder_name.startswith("config"): #looking for config subfolder
@@ -1747,4 +1747,4 @@ def run_batch_opt(request_header_json, study_folder,bc_json,mat_lib_json,machine
                 if file_name == "PartProcessPlans.json":
                     active= False
             if active or run_all:
-                run_opt(request_header_json,os.path.join(config_path,"mmm.json"), bc_json, mat_lib_json, machine_json,probe)
+                run_opt(request_header_json,os.path.join(config_path,"mmm.json"), bc_json, mat_lib_json, machine_json,constraints_json,probe)

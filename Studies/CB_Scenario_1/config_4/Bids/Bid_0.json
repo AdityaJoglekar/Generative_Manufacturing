@@ -3,8 +3,8 @@
     "suppliers": "Supplier-B",
     "order": "Request-A",
     "processPlan": "SLM-Additive-1",
-    "leadTime": 935288,
+    "leadTime": 1424792,
     "earliestStartTime": "2015-11-06T00:00:00+0000",
-    "earliestFinishTime": "2015-11-16T19:48:08+0000",
-    "cost": 30884.31
+    "earliestFinishTime": "2015-11-22T11:46:32+0000",
+    "cost": 50684.26
 }

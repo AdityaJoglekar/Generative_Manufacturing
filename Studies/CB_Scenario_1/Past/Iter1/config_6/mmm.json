@@ -1,9 +1,0 @@
-{
-    "ManufacturingMethod": "EDM",
-    "Orientation": [
-        "z"
-    ],
-    "Material": "Ti6Al4V",
-    "Valid": false,
-    "Reason": "Infeasible Constraints"
-}

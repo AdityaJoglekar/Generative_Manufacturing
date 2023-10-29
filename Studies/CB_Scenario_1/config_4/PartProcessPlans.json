@@ -13,17 +13,17 @@
         {
             "Name": "SLM-Additive-1",
             "Part": "Bracket",
-            "Link": "Studies/CB_Scenario_1\\config_4",
+            "Link": "Studies/CB_Scenario_1\\Past/Iter0/config_4",
             "Material": "Ti6Al4Vpowder",
             "ManufacturingMethod": "SLM-Additive",
-            "BulkGrams": 85.88134002685547,
-            "NetGrams": 85.65425872802734,
-            "ScrapGrams": 0.2270757257938385,
+            "BulkGrams": 167.46517944335938,
+            "NetGrams": 162.97921752929688,
+            "ScrapGrams": 4.485971450805664,
             "Width": 160.0,
             "Height": 80.0,
             "Depth": 32.0,
-            "Compliance": 0.22217828035354614,
-            "Volume": 19335.046875000004,
+            "Compliance": 0.12044001370668411,
+            "Volume": 36789.890625,
             "Task_Sequence": [
                 {
                     "Name": "Additive-machine-setup",
@@ -34,8 +34,8 @@
                 {
                     "Name": "SLM-printing",
                     "RequiredCapability": "SLM-Metal-Printing",
-                    "NominalDuration": 5152.8798828125,
-                    "NominalCost": 171.76266479492188
+                    "NominalDuration": 10047.9111328125,
+                    "NominalCost": 334.93035888671875
                 },
                 {
                     "Name": "Support-removal",

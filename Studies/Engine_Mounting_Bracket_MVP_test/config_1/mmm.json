@@ -1,9 +1,0 @@
-{
-    "ManufacturingMethod": "Additive",
-    "Orientation": [
-        "y+"
-    ],
-    "Material": "Al6061",
-    "Valid": true,
-    "Reason": "Feasible Configuration"
-}

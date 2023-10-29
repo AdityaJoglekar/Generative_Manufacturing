@@ -13,7 +13,7 @@
         {
             "Name": "3-Axis-Subtractive-1",
             "Part": "Bracket",
-            "Link": "Studies/CB_Scenario_1\\config_7",
+            "Link": "Studies/CB_Scenario_1\\Past/Iter0/config_7",
             "Material": "ABSPlastic",
             "ManufacturingMethod": "3-Axis-Subtractive",
             "BulkGrams": 434.17600000000004,

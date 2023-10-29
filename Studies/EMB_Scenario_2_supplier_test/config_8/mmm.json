@@ -1,9 +1,0 @@
-{
-    "ManufacturingMethod": "Additive",
-    "Orientation": [
-        "y+"
-    ],
-    "Material": "ABSPlastic",
-    "Valid": true,
-    "Reason": "Feasible Configuration"
-}

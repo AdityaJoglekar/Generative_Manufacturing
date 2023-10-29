@@ -1,9 +1,0 @@
-{
-    "ManufacturingMethod": "Additive",
-    "Orientation": [
-        "y+"
-    ],
-    "Material": "Ti6Al4V",
-    "Valid": false,
-    "Reason": "Infeasible Constraints"
-}

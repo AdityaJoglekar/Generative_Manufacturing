@@ -13,7 +13,7 @@
         {
             "Name": "SLM-Additive-1",
             "Part": "Bracket",
-            "Link": "Studies/CB_Scenario_1\\config_4",
+            "Link": "Studies/CB_Scenario_1\\Past/Iter0/config_4",
             "Material": "Ti6Al4Vpowder",
             "ManufacturingMethod": "SLM-Additive",
             "BulkGrams": 1868.9638671875,

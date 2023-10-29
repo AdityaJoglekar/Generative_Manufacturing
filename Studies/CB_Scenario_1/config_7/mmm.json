@@ -9,6 +9,6 @@
         "z-"
     ],
     "Material": "ABSPlastic",
-    "Valid": false,
-    "Reason": "Infeasible Constraints"
+    "Valid": true,
+    "Reason": "Feasible Configuration"
 }

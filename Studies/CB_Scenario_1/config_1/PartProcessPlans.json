@@ -13,17 +13,17 @@
         {
             "Name": "SLM-Additive-1",
             "Part": "Bracket",
-            "Link": "Studies/CB_Scenario_1\\config_1",
+            "Link": "Studies/CB_Scenario_1\\Past/Iter0/config_1",
             "Material": "Al6061powder",
             "ManufacturingMethod": "SLM-Additive",
-            "BulkGrams": 94.3917236328125,
-            "NetGrams": 91.71360778808594,
-            "ScrapGrams": 2.678121328353882,
+            "BulkGrams": 183.74285888671875,
+            "NetGrams": 173.23648071289062,
+            "ScrapGrams": 10.506390571594238,
             "Width": 160.0,
             "Height": 80.0,
             "Depth": 32.0,
-            "Compliance": 0.2304932028055191,
-            "Volume": 33968.00390625,
+            "Compliance": 0.1120862141251564,
+            "Volume": 64161.65625000001,
             "Task_Sequence": [
                 {
                     "Name": "Additive-machine-setup",
@@ -34,8 +34,8 @@
                 {
                     "Name": "SLM-printing",
                     "RequiredCapability": "SLM-Metal-Printing",
-                    "NominalDuration": 5663.50341796875,
-                    "NominalCost": 188.783447265625
+                    "NominalDuration": 11024.5712890625,
+                    "NominalCost": 367.4857177734375
                 },
                 {
                     "Name": "Support-removal",

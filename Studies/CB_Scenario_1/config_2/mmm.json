@@ -9,6 +9,6 @@
         "z-"
     ],
     "Material": "Al6061",
-    "Valid": false,
-    "Reason": "Infeasible Constraints"
+    "Valid": true,
+    "Reason": "Feasible Configuration"
 }

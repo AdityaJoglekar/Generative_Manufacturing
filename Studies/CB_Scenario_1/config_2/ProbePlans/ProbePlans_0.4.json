@@ -13,7 +13,7 @@
         {
             "Name": "3-Axis-Subtractive-1",
             "Part": "Bracket",
-            "Link": "Studies/CB_Scenario_1\\config_2",
+            "Link": "Studies/CB_Scenario_1\\Past/Iter0/config_2",
             "Material": "Al6061",
             "ManufacturingMethod": "3-Axis-Subtractive",
             "BulkGrams": 1105.92,
