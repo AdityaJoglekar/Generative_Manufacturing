@@ -1,15 +1,7 @@
-usage: run.py [-h] [--mmm MMM_JSON] [--bc BC_JSON] [--mat_lib MAT_LIB_JSON] [--machine MACHINE_JSON]
-              [--directory_path DIRECTORY_PATH] [--request_header_json REQUEST_HEADER_JSON]
+#Generative Manufacturing
+**Workflow**
+![image](https://github.com/AdityaJoglekar/Generative_Design_and_Manufacturing/assets/92458082/bb3039e3-ff6f-4e21-b97b-b7802955fb08)
 
-options:
-  -h, --help            show this help message and exit
-  --mmm MMM_JSON        Optimization configuration
-  --bc BC_JSON          Boundary Conditions
-  --mat_lib MAT_LIB_JSON
-                        Material Library
-  --machine MACHINE_JSON
-                        Machine Specifications
-  --directory_path DIRECTORY_PATH
-                        directory
-  --request_header_json REQUEST_HEADER_JSON
-                        request_header_json
+**Design Generator**
+![image](https://github.com/AdityaJoglekar/Generative_Design_and_Manufacturing/assets/92458082/6b4a2e5f-ed33-449a-885a-9fff659f2e1f)
+
