@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+tensorflow
+cupy
+cupyx
+sklearn
+scipy
+requests
