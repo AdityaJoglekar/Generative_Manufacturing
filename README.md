@@ -13,5 +13,5 @@ Advances in CAD and CAM have enabled engineers and design teams to digitally des
 
 **Getting Started**
 
-Run the executable file lmco.exe present in the executable-win folder for starting the supply chain scheduler. Use run_jupyter.ipynb for running the optimization and experiments.
+Run the executable file lmco.exe present in the executable-win folder for starting the supply chain scheduler. Use the notebook run_jupyter.ipynb for running the optimization and experiments.
 
