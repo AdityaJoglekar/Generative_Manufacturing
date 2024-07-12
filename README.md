@@ -13,6 +13,7 @@ Advances in CAD and CAM have enabled engineers and design teams to digitally des
 
 **Getting Started**
 1) Set up the environment by running the following command:
+   
    ```pip install -r requirements.txt```
 2) Run the executable file lmco.exe present in the executable-win folder for starting the supply chain scheduler.
 3) Use the notebook run_jupyter.ipynb for running the optimization and experiments.
