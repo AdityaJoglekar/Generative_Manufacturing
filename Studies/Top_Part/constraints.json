@@ -1,5 +1,5 @@
 {
-        "Mass_constraint":[10],
+        "Mass_constraint":[15],
         "Time_constraint":[21600],
         "Cost_constraint":[20000],
         "Materials":["Al6061","Ti6Al4V","ABSPlastic"],
