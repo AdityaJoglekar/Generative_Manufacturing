@@ -17,13 +17,13 @@
             "Material": "Al6061",
             "ManufacturingMethod": "2-Axis-Subtractive",
             "BulkGrams": 48600.00000000001,
-            "NetGrams": 10127.527294921876,
-            "ScrapGrams": 38472.47270507813,
+            "NetGrams": 15057.525585937503,
+            "ScrapGrams": 33542.474414062504,
             "Width": 600.0,
             "Height": 300.0,
             "Depth": 100.0,
-            "Compliance": 0.001028931699693203,
-            "Volume": 3750936.0351562505,
+            "Compliance": 0.0005978809203952551,
+            "Volume": 5576861.328125001,
             "Task_Sequence": [
                 {
                     "Name": "EDM-machine-setup",
@@ -34,8 +34,8 @@
                 {
                     "Name": "2Axis-machining-1",
                     "RequiredCapability": "EDM-Machining",
-                    "NominalDuration": 65387.40845884473,
-                    "NominalCost": 4359.160563922982
+                    "NominalDuration": 57667.668467580814,
+                    "NominalCost": 3844.511231172054
                 },
                 {
                     "Name": "Polishing",
