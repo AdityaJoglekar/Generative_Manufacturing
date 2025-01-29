@@ -1,0 +1,10 @@
+{
+    "id": 1,
+    "suppliers": "Supplier-A",
+    "order": "Request-A",
+    "processPlan": "3-Axis-Subtractive-1",
+    "leadTime": 1420452,
+    "earliestStartTime": "2015-11-06T00:00:00+0000",
+    "earliestFinishTime": "2015-11-22T10:34:12+0000",
+    "cost": 94686.0
+}
